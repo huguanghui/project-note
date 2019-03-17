@@ -30,7 +30,7 @@ $docker pull golang                # 下载golang的官方镜像
 ## 测试golang镜像
 
 ```shell
-$run -it --rm golang bash         # 测试go镜像
+$docker run -it --rm golang bash         # 测试go镜像
 ```
 
 ## 使用golang镜像
