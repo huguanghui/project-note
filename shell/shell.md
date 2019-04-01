@@ -303,6 +303,8 @@ $ echo $SVN | wc -c
 
 # 脚本使用技巧
 
+## 遍历
+
 ```shell
 for initscript in /etc/init.d/S[0-9][0-9]*
 do
@@ -312,5 +314,11 @@ do
                 $initscript start
         fi
 done
+```
+
+## set -e的使用
+
+```shell
+// 当命令以非0状态退出时,退出shell
 ```
 
