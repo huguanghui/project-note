@@ -6,7 +6,29 @@
 
 [Linux命令操作](http://man.linuxde.net/)
 
+[/usr/bin/env和/usr/bin/bash的比较](https://blog.csdn.net/austin_zhou001/article/details/46591169)
+
 # Linux的常用命令使用
+
+## 网络操作
+
+### curl
+
+> 一个利用URL规则在命令行下工作的文件传输工具。它支持文件的上传和下载
+
+#### 选项
+
+```c++
+-s		静默模式.不输出任何东西
+-S		显示错误
+-L		Follow redirects
+```
+
+#### 样例
+
+```c++
+$curl 
+```
 
 ## 系统操作
 

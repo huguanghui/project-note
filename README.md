@@ -12,3 +12,10 @@
 
 版权信息: Copyright © 2019-2019 XiaoCong Corporation, All Rights Reserved
 
+
+
+```c++
+wget http://download.boll.me/securecrt_linux_crack.pl
+sudo perl securecrt_linux_crack.pl /usr/bin/SecureCRT
+```
+
