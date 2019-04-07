@@ -24,6 +24,7 @@
 
 # 计划表
 
+- [ ] 企业级SVN和GIT服务器搭建
 - [ ] Jenkins入门级文档
 - [ ] C语言Common库
 - [ ] Go+Docker
