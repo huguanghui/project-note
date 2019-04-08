@@ -22,6 +22,8 @@
 
 ### 1.4 参考资料
 
+[visualsvn入门文档](https://www.visualsvn.com/server/getting-started/)
+
 ## 2.总体设计
 
 ## 3.功能设计
