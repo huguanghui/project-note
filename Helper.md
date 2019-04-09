@@ -22,6 +22,12 @@
 
 [代码库](https://www.ctolib.com/)
 
+[Visu Algo](https://visualgo.net/zh)
+
+[EasyDarwin](http://www.easydarwin.org/)
+
+[gettimeofday性能优化](http://www.easydarwin.org/article/EasyDarwin/91.html)
+
 # 计划表
 
 - [ ] 企业级SVN和GIT服务器搭建
