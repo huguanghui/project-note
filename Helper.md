@@ -30,6 +30,10 @@
 
 [Doxygen注释规范](https://blog.csdn.net/qq_25779555/article/details/77737391)
 
+[gparted](https://blog.csdn.net/code_segment/article/details/79237500)
+
+[apt卸载](https://www.cnblogs.com/marklove/p/8685959.html)
+
 
 # 计划表
 
