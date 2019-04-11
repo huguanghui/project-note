@@ -349,3 +349,9 @@ done
 > set -x开启执行显示
 >
 > set +x关闭执行显示
+
+# 正则表达式
+
+> 元字符,运算优先级,匹配规则
+
+[例子](https://www.cnblogs.com/fozero/p/7868687.html)
