@@ -32,6 +32,13 @@ $curl
 
 ## 系统操作
 
+### 用户管理
+
+```shell
+$ chown mysql auth.log #含义为 把 文件 auth.log 的所有者更改为 mysql
+$ chgrp  -R  mysql  apache2  #含义为 ，把 目录apache2 的所在组更改为mysql
+```
+
 ### mount
 
 > 挂载

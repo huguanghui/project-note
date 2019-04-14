@@ -34,9 +34,12 @@
 
 [apt卸载](https://www.cnblogs.com/marklove/p/8685959.html)
 
+[leixiaohua](https://leixiaohua1020.iteye.com/category/321088)
+
 
 # 计划表
 
+- [ ] zsh使用
 - [ ] 企业级SVN和GIT服务器搭建
 - [ ] Jenkins入门级文档
 - [ ] C语言Common库

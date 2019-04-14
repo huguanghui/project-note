@@ -183,3 +183,61 @@ windows上SVN版本需要与ubuntu上的版本一致.
 "D:\Program Files (x86)\Beyond.Compare.v3.3.13.18981.exe" %mine %theirs %base %merged /title1=%yname /title2=%tname /title3=%bname /title4=%mname
 ```
 
+## FTP
+
+> 提供文件存储和访问服务.
+
+### vsftpd安装
+
+#### 安装
+
+```shell
+# APT方式安装
+$ sudo apt-get install vsftpd
+```
+
+#### 配置
+
+> /etc/vsftpd.conf
+
+```shell
+# 为ftp服务创建用户
+$ sudo mkdir /home/ftp_u01
+$ sudo useradd –d /home/ftp_u01 –s /bin/zsh ftp_u01
+$sudo passwd ftp_u01
+```
+
+添加用户管理表
+
+```shell
+向文件中追加”userlist_deny=NO
+userlist_enable=YES    userlist_file=/etc/allowed_users” 和 ”seccomp_sandbox=NO” 设置文件中的”local_enable=YES” 保存退出即可
+其中/etc/ftpusers是不能访问的用户列表
+```
+
+#### 使用
+
+```shell
+$ sudo service vsftpd restart	重启vsftpd服务器
+```
+
+## ubuntu上的终端管理工具
+
+### APT安装
+
+```shell
+$ sudo apt-get install terminator
+```
+
+### 使用
+
+```shell
+# ctrl+shift+e 垂直分割
+# ctrl+shift+o 水平分割
+# alt+方向键切换
+# ctrl+shift+w 关闭分割窗
+```
+
+### 相关配置
+
+[参考](https://www.cnblogs.com/hwtblog/p/8438030.html)
