@@ -6,6 +6,8 @@
 
 [oh-my-zsh官网](https://ohmyz.sh/)
 
+[git的oh-my-zsh使用](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
+
 ## 安装
 
 ```shell
