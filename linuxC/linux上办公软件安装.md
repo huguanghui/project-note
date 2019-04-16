@@ -241,3 +241,8 @@ $ sudo apt-get install terminator
 ### 相关配置
 
 [参考](https://www.cnblogs.com/hwtblog/p/8438030.html)
+
+## Window上搭建Ftp服务器
+
+[参考](https://www.cnblogs.com/popfisher/p/7992036.html)
+
