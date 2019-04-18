@@ -108,9 +108,24 @@ $ mknod /dev/cobing/mydev1 c 128 512
 $ arm-hisiv500-linux-nm -A *.a | grep HY_PkgStream_DataPopCreate
 ```
 
-
-
 ## 文本处理
+
+### echo
+
+> 显示
+
+#### 选项
+
+```shell
+-n 不换行
+-e 处理特殊字符
+```
+
+#### 样例
+
+```shell
+$ echo -n > $RESOLV_CONF   # >是覆盖导入 -n 不换行
+```
 
 ### grep
 
@@ -362,3 +377,18 @@ done
 > 元字符,运算优先级,匹配规则
 
 [例子](https://www.cnblogs.com/fozero/p/7868687.html)
+
+# 判断
+
+```shell
+[ -z "$1" ]									# 判断值是否为空  空-true 非空-false
+[ -n "$1" ]									# 判断值是否为空  非空-true 空-false
+[ -f /usr/bin/grep ] 					    # 判断/usr/bin/grep是不是常规文件 是-true 不是-false
+[ -e /var/log/syslog ] 						# 判断文件存在
+[ -d /tmp/mydir ] 							# 判断目录
+[ -L /usr/bin/grep ]						# 判断软连接
+[ -r /var/log/syslog ] 						# 判断可读
+[ -w /var/mytmp.txt ] 						# 判断可写
+[ -x /usr/bin/grep ] 						# 判断可执行
+```
+

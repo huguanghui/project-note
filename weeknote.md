@@ -117,3 +117,5 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [Trac](https://trac.edgewall.org/wiki/TranslationZh_CN/TracGuide)
 
 [Mercurial](https://www.mercurial-scm.org/)
+
+[phpor的博客](https://phpor.net/blog/)
