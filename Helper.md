@@ -36,6 +36,10 @@
 
 [leixiaohua](https://leixiaohua1020.iteye.com/category/321088)
 
+# 解决问题
+
+[解决Ubuntu无法从外部应用启动Chrome打开链接的问题](https://blog.csdn.net/Artprog/article/details/71076111)
+
 
 # 计划表
 
