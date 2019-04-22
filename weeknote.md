@@ -120,4 +120,11 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [phpor的博客](https://phpor.net/blog/)
 
+<<<<<<< HEAD
 [香港地铁的颜色](http://metrocolor.live/index.html)
+=======
+[AutoPiano](http://crystalworld.gitee.io/qpiano/#/)
+
+[shutter截图工具](https://www.linuxidc.com/Linux/2019-04/157899.htm)
+
+>>>>>>> 71d9ed308edc0ddaeeeb5923db21ac990235ca02

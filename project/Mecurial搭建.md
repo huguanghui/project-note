@@ -14,6 +14,8 @@
 
 对于Mercuial1.4或之后的版本需要Docutils.
 
+[Mercurial官网](https://www.mercurial-scm.org/)
+
 ## ubuntu安装
 
 > 使用apt进行安装

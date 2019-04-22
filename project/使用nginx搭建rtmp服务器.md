@@ -4,6 +4,8 @@
 
 [RTMP](https://github.com/arut/nginx-rtmp-module)
 
+[FFMPEG](http://ffmpeg.org/)
+
 [nginx下载](http://nginx.org/download/)
 
 [nginx代码库](http://hg.nginx.org/)
