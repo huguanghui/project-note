@@ -186,10 +186,21 @@ $ hg export 4 > change4.diff
 
 **操作流程**
 
-###  hgignore忽略设置
+###  .hgignore忽略设置
+
+- [hgignore配置](https://www.selenic.com/mercurial/hgignore.5.html)
 
 ```shell
+# use glob syntax.
+syntax: glob
 
+*.elc
+*.pyc
+*~
+
+# switch to regexp syntax.
+syntax: regexp
+^\.pc/
 ```
 
 
