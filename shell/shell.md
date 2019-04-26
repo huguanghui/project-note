@@ -253,6 +253,14 @@ $ echo $SVN | wc -c
 
 # 常用系统相关命令
 
+## watch - 实时监测
+
+```shell
+$ watch -d -n 1 'free'
+```
+
+
+
 ```shell
 系统
 　　# uname -a # 查看内核/操作系统/CPU信息
