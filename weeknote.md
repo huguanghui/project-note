@@ -133,3 +133,6 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [看云文档](https://www.kancloud.cn/explore)
 
 [国标](http://www.gb688.cn/bzgk/gb/)
+
+[fastcgi](https://fastcgi-archives.github.io/FastCGI_Developers_Kit_FastCGI.html#S2)
+
