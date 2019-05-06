@@ -136,3 +136,8 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [fastcgi](https://fastcgi-archives.github.io/FastCGI_Developers_Kit_FastCGI.html#S2)
 
+[月更新开源项目简介](https://github.com/521xueweihan/HelloGitHub)
+
+[各种语言的Leetcode练习](https://github.com/tangweikun/awesome-leetcode#c)
+
+[nginx学习笔记](https://github.com/y123456yz/reading-code-of-nginx-1.9.2)
