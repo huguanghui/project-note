@@ -5,7 +5,7 @@
 ## 计划目标
 
 - [x] 搭建一个hg工程
-- [ ] 设计网络配置相关的API接口
+- [x] 设计网络配置相关的API接口
 - [ ] 使用端口方式先实现功能
 - [ ] 改用unix socket方式
 - [ ] 测试性能和改善解决方案
@@ -46,7 +46,7 @@ $ tracd --port 5000 .						# 开启Trac的网络服务
 
 - **URL**
 
-> /Net/NetworkInterface
+> [/Net/NetworkInterface](#)
 
 - **Method**
 
@@ -72,20 +72,35 @@ $ tracd --port 5000 .						# 开启Trac的网络服务
 {
     "NetworkInterfaces": [
         {
-            "Token": "eth0",
-            "Endable": true,
+            "token": "eth0",
+            "Enabled": true,
             "Info": {
                 "Name": "eth0"
                 "HwAddress": "",
                 "MTU": 255
-            }
+            },
+            "Link": {
+                "AdminSettings": {
+                    "AutoNegotiation": false,
+                    "Speed": 100,
+                    "Duplex": "Full"
+                },
+                "OperSettings": {
+                    "AutoNegotiation": false,
+                    "Speed": 100,
+                    "Duplex": "Full"
+                },
+                "InterfaceType": 6
+            },
             "IPv4": {
             	"Enabled": true,
             	"Config": {
-                    "Manual"： {
-						"Address": "",
-            			"PrefixLength": 24
-                    },
+                    "Manual"： [ 
+                    	{
+                            "Address": "",
+                            "PrefixLength": 24
+                		}
+                    ],
                     "LinkLocal"： {
 						"Address": "",
             			"PrefixLength": 24
@@ -96,12 +111,136 @@ $ tracd --port 5000 .						# 开启Trac的网络服务
                     },
 					"DHCP": false
         		}
-        	}
+        	},
+            "IPv6": {
+				"Enabled": false,
+                "Config": {
+                    "AcceptRouterAdvert": false,
+                    "DHCP": "Off",
+                    "Manual": [
+                        {
+                        	"Address": "",
+                        	"PrefixLength": 24                            
+                        }
+                    ],
+                    "LinkLocal": [
+                        {
+                            "Address": "",
+                            "PrefixLength": 24
+                    	}
+                    ],
+                    "FromDHCP": [
+                        {
+                            "Address": "",
+                            "PrefixLength": 24
+                    	}
+                    ],
+                    "FromRA": [
+                        {
+                            "Address": "",
+                            "PrefixLength": 24
+                        }
+                    ],
+                }
+            },
             "Extension": {
-				
+				"InterfaceType": 6,
+                "Dot3": "",
+                "Dot11": {
+                    "SSID": "",
+                    "Mode": "",
+                    "Alias": "",
+                    "Priority": "",
+                    "Security": {
+                        "Mode": "WEP",
+                        "Algorithm": "CCMP",
+                        "PSK": {
+                            "Key": "",
+                            "Passphrase": "",
+                        },
+                        "Dot1X": "",
+                    }
+                }
             }
         }
     ]
+}
+```
+
+- **URL**
+
+> [/Net/NetworkInterface](#)
+
+- **Method**
+
+> PUT
+
+- **请求参数**
+
+| 参数 | 类型 | 说明 |
+| :--: | :--: | :--: |
+|      |      |      |
+
+- **返回参数**
+
+| 参数 | 类型 | 说明 |
+| :--: | :--: | :--: |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+样例
+```json
+{
+    "InterfaceToken": "",
+    "NetworkInterface": {
+        "Enabled": true,
+        "Link": {
+            "AutoNegotiation": false,
+            "Speed": 100,
+            "Duplex": "Full"
+        },
+        "MTU": 255,
+        "IPv4": {
+            "Enabled": false,
+            "Manual": [
+                {
+                    "Address": "",
+                    "PrefixLength": 24
+                }
+            ],
+            "DHCP": false
+        },
+        "IPv6": {
+            "Enabled": false,
+            "AcceptRouterAdvert": false,
+            "Manual": [
+                {
+                    "Address": "",
+                    "PrefixLength": ""
+                }
+            ],
+            "DHCP": "Off"
+        },
+        "Extension": {
+            "Dot3": "",
+            "Dot11": {
+                "SSID": "",
+                "Mode": "Ad-hoc",
+                "Alias": "",
+                "Priority": "",
+                "Security": {
+                    "Mode": "",
+                    "Algorithm": "CCMP",
+                    "PSK": {
+                        "Key": "",
+                        "Passphrase": ""
+                    },
+                    "Dot1X": ""
+                }
+            }
+        }
+    }
 }
 ```
 
