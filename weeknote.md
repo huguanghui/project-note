@@ -143,3 +143,5 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [nginx学习笔记](https://github.com/y123456yz/reading-code-of-nginx-1.9.2)
 
 [XWIKI](https://www.xwiki.org/xwiki/bin/view/Main/)
+
+[微软的 Terminal](https://github.com/microsoft/Terminal/tree/master)
