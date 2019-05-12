@@ -145,3 +145,13 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [XWIKI](https://www.xwiki.org/xwiki/bin/view/Main/)
 
 [微软的 Terminal](https://github.com/microsoft/Terminal/tree/master)
+
+## 第三期
+
+[阮一峰博客](http://www.ruanyifeng.com/home.html)
+
+[50万行 Java 代码移植到 Go 语言的感想](https://blog.kowalczyk.info/article/19f2fe97f06a47c3b1f118fd06851fad/lessons-learned-porting-50k-loc-from-java-to-go.html)
+
+[Flutter中文网](https://flutterchina.club/)
+
+[Notion](https://www.notion.so/login)
