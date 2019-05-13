@@ -145,3 +145,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [XWIKI](https://www.xwiki.org/xwiki/bin/view/Main/)
 
 [微软的 Terminal](https://github.com/microsoft/Terminal/tree/master)
+
+[数据库可视化软件Navicat](https://www.navicat.com/en/download/navicat-premium)
+
+[Navicat激活](https://blog.csdn.net/jikefzz1095377498/article/details/79578796)
