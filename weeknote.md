@@ -149,3 +149,18 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [数据库可视化软件Navicat](https://www.navicat.com/en/download/navicat-premium)
 
 [Navicat激活](https://blog.csdn.net/jikefzz1095377498/article/details/79578796)
+
+## 第三期
+
+[阮一峰博客](http://www.ruanyifeng.com/home.html)
+
+[50万行 Java 代码移植到 Go 语言的感想](https://blog.kowalczyk.info/article/19f2fe97f06a47c3b1f118fd06851fad/lessons-learned-porting-50k-loc-from-java-to-go.html)
+
+[Flutter中文网](https://flutterchina.club/)
+
+[Notion](https://www.notion.so/login)
+
+[我的notion](www.notion.so/huguanghui)
+
+[流媒体相关博客](http://www.cnblogs.com/haibindev/tag/%E6%B5%81%E5%AA%92%E4%BD%93/)
+
