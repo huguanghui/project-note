@@ -164,3 +164,14 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [流媒体相关博客](http://www.cnblogs.com/haibindev/tag/%E6%B5%81%E5%AA%92%E4%BD%93/)
 
+[2019 Google I/O中对Chrome的改进](https://www.codercto.com/topics/263.html)
+
+[ReadtheDocs文档管理](https://readthedocs.org/dashboard/)
+
+[录制屏幕生成 GIF](https://www.so.com/s?ie=UTF-8&q=LICEcap)
+
+[中文文案排版](https://mazhuang.org/wiki/chinese-copywriting-guidelines/)
+
+[GPROF工具使用](https://blog.csdn.net/luchengtao11/article/details/74910585)
+
+[程序优化的5个方向](https://me115.github.io/2015/08/06/e7-a8-8b-e5-ba-8f-e4-bc-98-e5-8c-96-e7-9a-845-e4-b8-aa-e6-96-b9-e5-90-91/)
