@@ -175,3 +175,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [GPROF工具使用](https://blog.csdn.net/luchengtao11/article/details/74910585)
 
 [程序优化的5个方向](https://me115.github.io/2015/08/06/e7-a8-8b-e5-ba-8f-e4-bc-98-e5-8c-96-e7-9a-845-e4-b8-aa-e6-96-b9-e5-90-91/)
+
+[visio2019](https://www.chiphell.com/thread-1920052-1-1.html)
+
+[viso2019秘钥](https://blog.csdn.net/ysd880301/article/details/88360199)
