@@ -179,3 +179,10 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [visio2019](https://www.chiphell.com/thread-1920052-1-1.html)
 
 [viso2019秘钥](https://blog.csdn.net/ysd880301/article/details/88360199)
+
+## 第四期
+
+[Five things that make Go fast](https://dave.cheney.net/2014/06/07/five-things-that-make-go-fast)
+
+[voice-web](https://github.com/mozilla/voice-web)
+
