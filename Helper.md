@@ -51,3 +51,23 @@
 - [ ] 边缘计算
 - [ ] His交叉编译器编译go
 - [ ] 基于unix的域套接字通信
+
+# 临时记录
+
+```c++
+1.CMake环境搭建；
+2.添加live555的原始代码；
+```
+
+git cmmit -m $'1.CMake环境搭建；\n2.添加live555的原始代码；'
+
+
+
+```
+ /usr/bin/c++   -I/home/hgh/GIT/hghRtsp -I/home/hgh/GIT/hghRtsp/src/UsageEnvironment/include -I/home/hgh/GIT/hghRtsp/src/BasicUsageEnvironment/include -I/home/hgh/GIT/hghRtsp/src/groupsock/include -I/home/hgh/GIT/hghRtsp/src/liveMedia/include  -g -Wall -Werror -rdynamic -O0   -std=c++11 -o CMakeFiles/hRtsp.dir/groupsock/Groupsock.cpp.o -c /home/hgh/GIT/hghRtsp/src/groupsock/Groupsock.cpp
+```
+
+```
+c++ -c -Iinclude -I../UsageEnvironment/include -I../groupsock/include -I. -O -DSOCKLEN_T=socklen_t -g -D_LARGEFILE_SOURCE=1 -D_FILE_OFFSET_BITS=64 -Wall -DBSD=1 OggFileParser.cpp
+```
+
