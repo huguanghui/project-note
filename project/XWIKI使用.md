@@ -100,3 +100,63 @@ Page是XWiki中最小的内容单元.一个页通常会划分成下面这些区�
 - 选择哪种面板去显示
 
 Panel对于新增菜单以及向pages中添加新特性.可以在wiki中对于不同尺寸的控件设置不同的面板.
+
+## 使用
+
+- [ ] 基础使用（创建 Page ,Wiki和Pannels）
+- [ ] pdf，word等多种文本格式的支持
+- [ ] 汉化
+
+### 基础使用
+
+[参考](https://www.xwiki.org/xwiki/bin/view/Documentation/UserGuide/GettingStarted/CreatingAPage)
+
+#### 新建一个Page
+
+1. 点击 "Create"
+
+![Image 029](assets/Image 029.png)
+
+出现下面这个页面
+
+![Image 030](assets/Image 030.png)
+
+2. 设置主题和创建文档的类型
+
+![Image 031](assets/Image 031.png)
+
+3. 使用页面链接方式来创建Pages
+
+![link_create](assets/link_create.gif)
+
+4. 直接输入新Page的URL就可以进入该页面了
+
+#### 编辑Page
+
+1. 点击 "Edit"
+
+![Image 032](assets/Image 032.png)
+
+2. 可以使用 WYSIWYG 编辑器 和 [XWiki syntax](https://enterprise.xwiki.org/xwiki/bin/view/XWiki/XWikiSyntax) 语法的两种编辑器进行编辑
+3. 修改完毕后，再"Add Summary..."下可以添加具体修改内容的注释。
+4. 可以选择 "Preview" 按钮进行预览，"Save & Continue" 按钮保存,  Save & View" 保存和预览.
+5. 修改完毕后，在线页面就会同步更新.
+
+#### Page的历史记录
+
+![Image 033](assets/Image 033.png)
+
+#### 修改样式
+
+> 目前修改不了应该是缺少了相关组件
+
+1. 修改logo
+2. 修改wiki的背景颜色
+3. 修改wiki的panels
+
+#### 从空的 XWiki 安装
+
+### xwiki的应用
+
+[All Projects](https://www.xwiki.org/xwiki/bin/view/Main/Forge)
+
