@@ -99,4 +99,31 @@ $ svn list https://192.168.3.125/svn/test_svn
 
 ```
 
+### 使用vimdiff替换原生的1svn diff
+
+新建文件~/.vimdiff
+
+```
+1 #!/bin/sh
+2 # 配置你喜欢的diff程序路径
+3 DIFF="vimdiff"
+4 # SVN diff命令会传入两个文件的参数 
+5 LEFT=${6}
+6 RIGHT=${7}
+7 # 拼接成diff命令所需要的命令格式
+8 $DIFF $LEFT $RIGHT
+```
+
+编辑subversiond的配置文件
+
+```shell
+# diff-cmd = diff_program (diff, gdiff, etc.)替换为diff-cmd = /home/user-name/.vimdiff
+```
+
+
+
 ## GIT
+
+### 已修改的版本回滚
+
+### 当前目录切换到历史版本
