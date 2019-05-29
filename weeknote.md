@@ -193,3 +193,18 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [虚拟内存探究](http://blog.coderhuo.tech/2017/10/19/Virtual_Memory_summary/)
 
 [博客-coderhuo](http://blog.coderhuo.tech/)
+
+[C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
+
+[Go的开发路线](https://github.com/Alikhll/golang-developer-roadmap/blob/master/i18n/ReadMe-zh-CN.md)
+
+[开发设计的原则和定律](https://github.com/nusr/hacker-laws-zh)
+
+[数据结构和算法](https://github.com/wangzheng0822/algo)
+
+[maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)
+
+[ 3D 游戏实施 SSAO、景深、照明、法线贴图等效果的教程](https://github.com/lettier/3d-game-shaders-for-beginners)
+
+[ctags](http://ctags.sourceforge.net/)
+

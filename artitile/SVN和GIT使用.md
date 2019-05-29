@@ -87,17 +87,38 @@ $ svn cat -r 版本号 文件
 $ svn list https://192.168.3.125/svn/test_svn
 ```
 
-### 分支的使用(TODO)
+### 分支的使用
 
 ```shell
-
+# 创建分支
+$ svn cp -m "create branch" http://svn_server/xxx_repository/trunk http://svn_server/xxx_repository/branches/br_feature001
+# 获取分支
+$ svn co http://svn_server/xxx_repository/branches/br_feature001
+# 合并主干上的最新代码到分支
+$ cd br_feature01
+$ svn merge http://svn_server/xxx_repository/trunk 
+# 分支合并到主干
+$ cd trunk
+$ svn merge --reintegrate http://svn_server/xxx_repository/branches/br_feature001
+# 合并版本并将合并后的结果应用到现在的分支
+$ svn -r 148:149 merge http://svn_server/xxx_repository/trunk
 ```
 
-### 标签的使用(TODO)
+### 标签的使用
 
 ```shell
-
+# 新建tag
+$ svn copy http://svn_server/xxx_repository/trunk http://svn_server/xxx_repository/tags/release-1.0 -m "1.0 released"
 ```
+
+### 删除分支或tag
+
+```shell
+$ svn rm http://svn_server/xxx_repository/branches/br_feature001
+$ svn rm http://svn_server/xxx_repository/tags/release-1.0
+```
+
+
 
 ### 使用vimdiff替换原生的1svn diff
 
