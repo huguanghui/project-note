@@ -208,3 +208,9 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [ctags](http://ctags.sourceforge.net/)
 
+[FiraCode字体](https://github.com/tonsky/FiraCode)
+
+[Chocolatey](https://chocolatey.org/) - Windows上的安装包管理
+
+[字体安装](http://www.360kuai.com/pc/9d11114e6873c2292?cota=3&kuai_so=1&tj_url=xz&sign=360_e39369d1&refer_scene=so_1)
+
