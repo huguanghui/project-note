@@ -19,3 +19,10 @@
 在插件栏中搜索 "open in browser"
 
 选中*.html文件，按 alt + b
+
+## C/C++的开发环境
+
+- C/C++插件
+
+- [CTags Support](https://github.com/jaydenlin/ctags-support)
+
