@@ -84,3 +84,4 @@ Host ubuntu18.04
 $ ssh-copy-id -i id_rsa-remote-ssh.pub 192.168.0.8
 ```
 
+该功能对32为的远程机器进行连接
