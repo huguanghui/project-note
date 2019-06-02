@@ -8,6 +8,26 @@
 
 ./nam, ./src, ./test
 
+## 环境
+
+### 图标
+
+> 使用VSCode Great Icons
+
+### 主题
+
+> 使用Bracket主题插件
+>
+> 背景颜色改为 204 232 207 或 #CCE8CF
+
+在插件的配置文件中
+
+将 "editor.background" 和 "editor.lineHighlightBackground" 配置改为 #CCE8CF.
+
+### 高亮选中背景
+
+> highlight-icemode
+
 ## 远程开发
 
 > 该插件可以让我们通过SSH，远程设备或虚拟机，WSL，或是在Docker容器使用VSCode远程编辑.
@@ -85,3 +105,14 @@ $ ssh-copy-id -i id_rsa-remote-ssh.pub 192.168.0.8
 ```
 
 该功能对32为的远程机器进行连接
+
+### 远程WSL
+
+#### wsl的重启
+
+```shell
+# 管理员模式运行shell
+$ net stop LxssManager
+$ net start LxssManager
+```
+

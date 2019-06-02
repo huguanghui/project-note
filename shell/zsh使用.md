@@ -76,7 +76,7 @@ plugins={
 
 ```shell
 # vim ~/.zshrc
-# 修改ZSH_THEME参数
+# 修改ZSH_THEME参数, 推荐(ys)
 ```
 
 ## 卸载
