@@ -37,8 +37,6 @@ $ ctags -R -f .tags
 
 f1, 输入Ctags
 
-## VSCode中gtags使用
-
 ## 命令使用
 
 ```shell
