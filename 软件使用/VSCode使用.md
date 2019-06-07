@@ -43,8 +43,12 @@
 ## C/C++的开发环境
 
 - C/C++插件
-
+- C/C++ Intellisense插件 + gtags
 - [CTags Support](https://github.com/jaydenlin/ctags-support)
+
+## 优化配置
+
+### 去掉打开软件自动打开上次工程
 
 ## win10上搭建远程开发环境
 
