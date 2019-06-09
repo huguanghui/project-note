@@ -39,3 +39,12 @@
 
 1. VSCode中代码片段识别问题
 2. 创建一个快速生成测试样例的代码块.
+
+
+
+## 2019-06-09
+
+### VSCode + gtags的使用
+
+-  gtags的命令使用
+- 与VSCode中的C++Intellisense插件的使用
