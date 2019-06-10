@@ -220,3 +220,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [配置文件](https://github.com/shibayu36/config-file)
 
+[cplusplus中的string的使用](http://www.cplusplus.com/reference/string/string/)
+
+[go的excel库使用](https://github.com/360EntSecGroup-Skylar/excelize)
+
