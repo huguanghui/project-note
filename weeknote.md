@@ -184,9 +184,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [Five things that make Go fast](https://dave.cheney.net/2014/06/07/five-things-that-make-go-fast)
 
-[voice-web](https://github.com/mozilla/voice-web)
-
-[Codelf Github](https://github.com/unbug/codelf)
+[voice-web](https://github.com/mozilla/voice-web)[Codelf Github](https://github.com/unbug/codelf)
 
 [Codelf](https://unbug.github.io/codelf/)
 
@@ -221,3 +219,8 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [配置文件](https://github.com/shibayu36/config-file)
 
 [常用工具](https://www.bejson.com/)
+
+[cplusplus中的string的使用](http://www.cplusplus.com/reference/string/string/)
+
+[go的excel库使用](https://github.com/360EntSecGroup-Skylar/excelize)
+
