@@ -306,6 +306,12 @@ $ echo $SVN | wc -c
 $ watch -d -n 1 'free'
 ```
 
+## ln - 创建软连接
+
+```shell
+$ ln -s [源] [目标]
+```
+
 
 
 ```shell
