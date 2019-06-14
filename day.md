@@ -49,3 +49,6 @@
 -  gtags的命令使用
 - 与VSCode中的C++Intellisense插件的使用
 
+## 2019-06-12
+
+- [ ] github创建模板C++的Cmake模板仓库
