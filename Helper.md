@@ -71,3 +71,4 @@ git cmmit -m $'1.CMake环境搭建；\n2.添加live555的原始代码；'
 c++ -c -Iinclude -I../UsageEnvironment/include -I../groupsock/include -I. -O -DSOCKLEN_T=socklen_t -g -D_LARGEFILE_SOURCE=1 -D_FILE_OFFSET_BITS=64 -Wall -DBSD=1 OggFileParser.cpp
 ```
 
+vi-mode

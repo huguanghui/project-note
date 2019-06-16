@@ -120,3 +120,7 @@ $ net stop LxssManager
 $ net start LxssManager
 ```
 
+## Vim的使用
+
+[vim的使用](https://github.com/VSCodeVim/Vim/blob/master/ROADMAP.md)
+
