@@ -72,3 +72,6 @@ c++ -c -Iinclude -I../UsageEnvironment/include -I../groupsock/include -I. -O -DS
 ```
 
 vi-mode
+
+- [ ] 调试 - 颜色完善
+- [ ]  队列的使用

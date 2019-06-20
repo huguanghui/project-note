@@ -124,3 +124,7 @@ $ net start LxssManager
 
 [vim的使用](https://github.com/VSCodeVim/Vim/blob/master/ROADMAP.md)
 
+### 配置
+
+> 
+

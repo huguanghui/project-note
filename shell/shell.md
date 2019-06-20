@@ -108,6 +108,8 @@ $ mknod /dev/cobing/mydev1 c 128 512
 ```shell
 # 查看当前路径下所有静态库的中具有HY_PkgStream_DataPopCreate符号的库
 $ arm-hisiv500-linux-nm -A *.a | grep HY_PkgStream_DataPopCreate
+# 查看动态库的函数是否定义
+$ arm-hisiv500-linux-nm -D yourLib.so |grep -w yourFunction
 ```
 
 ## 文本处理
