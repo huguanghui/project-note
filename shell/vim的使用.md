@@ -10,6 +10,8 @@
 
 [vim配置参考](https://github.com/consen/dotfiles/blob/master/vim/vimrc)
 
+[vim插件集合](https://vimawesome.com/plugin/youcompleteme)
+
 ## 常用命令
 
 | 描述       | 按键                |
@@ -82,6 +84,42 @@ Plug 'vim-airline/vim-airline'
 Plug 'Valloric/YouCompleteMe'
 # 安装
 $ cd ~/.vim/bundle/YouCompleteMe
-$ python3 install.py --clang-completer
+# 下载安装最新的版本libclang
+$ apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
+```
+
+### 编译ycm_core库(需要安装cmake和python3-dev)
+
+```shell
+$ ./install.py --clang-completer
+# 配置
+$ cp ~/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py ~/.vim/
+# 添加vim配置
+let g:ycm_server_python_interpreter='/usr/bin/python'
+let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
+```
+
+### 使用
+
+```shell
+# 匹配选择
+tab键
+# 头文件匹配
+
+```
+
+
+
+### gtags 使用
+
+```shell
+Plug 'vim-scripts/gtags.vim'
+# ctags生成
+$ ctags -R -f .tags
+# 命令使用
+1. ctrl +] // 跟踪
+2. ctrl +t或+o //返回
+3.:TlistToggle显示索引表
+4. ctrl+w w切换视图
 ```
 
