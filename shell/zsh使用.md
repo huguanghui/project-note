@@ -8,6 +8,8 @@
 
 [git的oh-my-zsh使用](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
 
+[Linux的四大开发利器](https://consen.github.io/2017/02/14/four-linux-development-tools/)
+
 ## 安装
 
 ```shell
@@ -43,6 +45,10 @@ alias -s gz='tar -xzvf'
 
 ### 安装插件
 
+### colored-man-pages
+
+> 让man手册有颜色
+
 #### autojump自动跳转插件
 
 ```shell
@@ -54,6 +60,8 @@ source ~/.zshrc
 ```
 
 #### zsh-syntax-highlighting语法高亮插件
+
+> 可提示命令写错
 
 ```shell
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git

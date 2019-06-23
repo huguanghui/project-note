@@ -8,6 +8,8 @@
 
 [复制剪切和粘贴命令](https://www.cnblogs.com/maowang1991/p/3371640.html)
 
+[vim配置参考](https://github.com/consen/dotfiles/blob/master/vim/vimrc)
+
 ## 常用命令
 
 | 描述       | 按键                |
@@ -26,8 +28,15 @@
 ## 配置
 
 ```shell
-# 修改换行缩进
-
+# vi 的最流行的加强版。它在 vi 的基础上增加了很多功能，但就不与 vi 完全兼容了
+# 让 vim 关闭所有扩展的功能，尽量模拟 vi 的行为
+set compatible
+# 关闭兼容模式 (推荐)
+set nocompatible
+" 设置vim的历史记录条数
+set history=2048
+" 当外部被修改自动读
+set autoread
 ```
 
 ## 插件
@@ -54,6 +63,16 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 | `PlugDiff`                          | Examine changes from the previous update and the pending changes |
 | `PlugSnapshot[!] [output path]`     | Generate script for restoring the current snapshot of the plugins |
 
+## vim-airline 显示风格插件
+
+[vim-airline](https://github.com/vim-airline/vim-airline)
+
+```shell
+Plug 'vim-airline/vim-airline'
+```
+
+
+
 ### YouCompleteMe 自动代码补全插件
 
 [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
@@ -61,5 +80,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```shell
 # 使用 vim-plug安装
 Plug 'Valloric/YouCompleteMe'
+# 安装
+$ cd ~/.vim/bundle/YouCompleteMe
+$ python3 install.py --clang-completer
 ```
 
