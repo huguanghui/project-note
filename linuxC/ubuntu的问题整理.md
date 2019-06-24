@@ -9,3 +9,9 @@
 $ apt-get install build-essential
 ```
 
+## 查看 gcc 编译器的头文件加载路径
+
+```shell
+$ echo 'main(){}'|gcc -E -v -
+```
+
