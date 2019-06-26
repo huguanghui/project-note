@@ -14,6 +14,8 @@
 
 ## SVN
 
+### svn status的状态显示
+
 - A 已添加
 - D 已删除
 - U 已更新
@@ -118,8 +120,6 @@ $ svn rm http://svn_server/xxx_repository/branches/br_feature001
 $ svn rm http://svn_server/xxx_repository/tags/release-1.0
 ```
 
-
-
 ### 使用vimdiff替换原生的1svn diff
 
 新建文件~/.vimdiff
@@ -139,6 +139,13 @@ $ svn rm http://svn_server/xxx_repository/tags/release-1.0
 
 ```shell
 # diff-cmd = diff_program (diff, gdiff, etc.)替换为diff-cmd = /home/user-name/.vimdiff
+```
+
+### 特殊使用
+
+```shell
+# 修改 svn 的地址
+$ svn switch --relocate http://192.168.1.4/svn/zview_4sdi_dvr/software/projects_2018/01_HVR/04devs/04_HVR_AiStick http://192.168.250.4/svn/zview_4sdi_dvr/software/projects_2018/01_HVR/04devs/04_HVR_AiStick
 ```
 
 

@@ -16,6 +16,8 @@
 
 [参考配置](https://github.com/consen/dotfiles)
 
+[oh my tmux](https://github.com/gpakosz/.tmux/blob/master/.tmux.conf)
+
 
 ## 安装
 
