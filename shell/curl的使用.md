@@ -15,3 +15,20 @@
 ### 1. FTP的下载和上传
 
 - 准备一个Ftp的服务器
+
+### 2. 下载 github 中某个仓库中的文件
+
+```shell
+$ curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/uninstall.sh
+$ curl -fsSL https://github.com/LeCoupa/awesome-cheatsheets/raw/master/languages/C.txt
+```
+
+### 3. 使用命令调用 HTTP 方法
+
+```shell
+# GET 方法
+$ curl http://localhost:8000/api/v1/a
+# POST 方法
+$ curl -d "user=admin&passwd=12345678" http://127.0.0.1:8080/login
+```
+
