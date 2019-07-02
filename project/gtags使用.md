@@ -40,7 +40,7 @@ $ sudo make install
 
 ```shell
 # window环境
-$ dir [path] /a-d /b /s *.cpp *.h > filelist.txt
+$ dir [path] /a-d /b /s *.cpp *.c *.h > filelist.txt
 # linux环境
 $ find [path] -type f -regex ".*\(\.cpp\|\.c\)$" > filelist.txt
 $ find . -type f \( -name "*.java" -o  -name "*.cpp" -o -name "*.h" \)
