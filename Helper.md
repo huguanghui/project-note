@@ -80,3 +80,4 @@ vi-mode
 
 1. 搭建arm-himix200-linux交叉编译器
 2. 完成模块, 人脸库的接口体到xml的转换
+

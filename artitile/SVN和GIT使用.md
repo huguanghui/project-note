@@ -145,7 +145,7 @@ $ svn rm http://svn_server/xxx_repository/tags/release-1.0
 
 ```shell
 # 修改 svn 的地址
-$ svn switch --relocate http://192.168.1.4/svn/zview_4sdi_dvr/software/projects_2018/01_HVR/04devs/04_HVR_AiStick http://192.168.250.4/svn/zview_4sdi_dvr/software/projects_2018/01_HVR/04devs/04_HVR_AiStick
+$ svn switch --relocate http://192.168.1.4/svn/zview_4sdi_dvr/firmware/projects_2018/07_AHB8308HIB_AiStick/zwsdk http://192.168.250.4/svn/zview_4sdi_dvr/firmware/projects_2018/07_AHB8308HIB_AiStick/zwsdk
 ```
 
 

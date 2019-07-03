@@ -243,3 +243,17 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [速查表](https://www.cnblogs.com/findumars/p/8480368.html)
 
 [cheatsheet](https://devhints.io/)
+
+人脸识别相关
+
+[OAID 仓库](https://github.com/OAID)
+
+[YSQ 仓库](https://github.com/ShiqiYu)
+
+[Caffe](http://caffe.berkeleyvision.org/)
+
+[alibaba开源](https://github.com/alibaba?utf8=%E2%9C%93&q=&type=&language=c)
+
+[切图](https://icons8.com/)
+
+[usbguard](https://github.com/USBGuard/usbguard)
