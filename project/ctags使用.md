@@ -52,5 +52,15 @@ $ ctags -f .tags
 $ ctags -R  // 等价于 ctags --recurse
 # 查看可识别的语法元素
 $ ctags --list-kinds
+$ 只对 c 相关的文件进行分析
+$ find . -type f \( -name "*.c" -o  -name "*.cpp" -o -name "*.hh" -o -name "*.h" \) > filelist.txt
+# 对指定文件进行分析
+$ ctags -L filelist.txt
+```
+
+## 查询命令
+
+```
+$ vim -t 需要查询的变量或函数名
 ```
 

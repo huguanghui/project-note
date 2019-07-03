@@ -160,7 +160,10 @@ $ ctrl+b q
 
 ```shell
 # 安装
-$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+$ 
+
+
+
 # 命令
 # a.安装
 $ ctrl+b I
