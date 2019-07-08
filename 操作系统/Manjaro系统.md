@@ -92,3 +92,29 @@ $ sudo pacman -S alacritty
 $ sudo pacman -S dmenu
 ```
 
+### 安装 - samba
+
+```shell
+$ sudo pacman -S samba
+$ wget "https://git.samba.org/samba.git/?p=samba.git;a=blob_plain;f=examples/smb.conf.default;hb=HEAD" -O /etc/samba/smb.conf
+# 添加
+#[linux]
+#path=/home/linux
+#valid users=linux
+#public=yes
+#writable=yes
+# 创建 samba 用户
+$ sudo systemctl restart smb.service
+$ sudo systemctl restart nmb.service
+或 sudo systemctl restart smb nmb
+# 设为开机启动
+$ sudo systemctl enable smb.service
+$ sudo systemctl enable nmb.service
+或 sudo systemctl enable smb nmb
+#手动挂载
+#mount -t cifs -o username=用户名,password=密码  //ip地址/共享文件夹名 挂载点
+mkdir test
+mount -t cifs -o username=user1,password=you_password //service_ip/test ./test  #成功
+#smbmount -o username=用户名,password=密码  //ip地址/共享文件夹名 挂载点   #未测试
+```
+

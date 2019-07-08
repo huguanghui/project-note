@@ -81,3 +81,6 @@ vi-mode
 1. 搭建arm-himix200-linux交叉编译器
 2. 完成模块, 人脸库的接口体到xml的转换
 
+```shell
+wget "https://git.samba.org/samba.git/?p=samba.git;a=blob_plain;f=examples/smb.conf.default;hb=HEAD" -O /etc/samba/smb.conf
+```
