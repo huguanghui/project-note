@@ -40,12 +40,8 @@ $ sudo make install
 
 ```shell
 # window环境
-<<<<<<< HEAD
 $ dir [path] /a-d /b /s *.cpp *.h > filelist.txt
 $ dir lib\*.h lib\*.c include\*.h /A-D /B /s > filelist.txt
-=======
-$ dir [path] /a-d /b /s *.cpp *.c *.h > filelist.txt
->>>>>>> 5495476889f9a32468e68cf0c52998572d84bba2
 # linux环境
 $ find [path] -type f -regex ".*\(\.cpp\|\.c\)$" > filelist.txt
 $ find . -type f \( -name "*.java" -o  -name "*.cpp" -o -name "*.h" \)
