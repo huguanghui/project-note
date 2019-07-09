@@ -118,3 +118,10 @@ mount -t cifs -o username=user1,password=you_password //service_ip/test ./test�
 #smbmount -o username=用户名,password=密码  //ip地址/共享文件夹名 挂载点   #未测试
 ```
 
+## GNOME的快捷建
+
+```shell
+# 应用搜索
+$ win键 或 alt+F1
+```
+
