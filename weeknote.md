@@ -258,4 +258,31 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [usbguard](https://github.com/USBGuard/usbguard)
 
+[经典书籍文档](https://github.com/royeo/awesome-programming-books)
 [manjaro的安装和配置](http://ju.outofmemory.cn/entry/359698)
+
+[i3 官网](https://i3wm.org/)
+
+[i3 按键](https://i3wm.org/docs/userguide.html#_default_keybindings)
+
+[gythialy 的博客](https://gythialy.github.io/)
+
+[技术博客](http://outofmemory.cn/#cpp.cnblogs)
+
+## 第六期
+
+[Linux 系统的时间线](https://github.com/FabioLolix/LinuxTimeline)
+
+[用飞桨来实现您的AI想法](http://www.paddlepaddle.org.cn/start)
+
+### 打字
+
+[typingclub](https://www.typingclub.com)
+
+[keybr](https://www.keybr.com)
+
+[typingtest](https://www.typingtest.com)
+
+[10fastfinger](https://10fastfinger.com)
+
+[C/C++资源表](https://www.ctolib.com/cpp/)
