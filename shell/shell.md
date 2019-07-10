@@ -314,7 +314,15 @@ $ watch -d -n 1 'free'
 $ ln -s [源] [目标]
 ```
 
-
+```shell
+# 格式化分区
+# ext4分区
+$ mkfs.ext4 /dev/mmcblk0p11 // 海思板子
+$ mount -t ext4  /dev/mmcblk0p11 /facerecodb  -o sync
+# fat分区
+$ mkfs.vfat /dev/mmcblk0p12
+$ mount -t vfat /dev/mmcblk0p12 /facerecodb/files/
+```
 
 ```shell
 系统
@@ -405,8 +413,6 @@ $ ln -s [源] [目标]
 　　Linux内存版本信息：Version
 备注： proc – process information pseudo-filesystem 进程信息伪装文件系统
 ```
-
-
 
 # 脚本使用技巧
 
