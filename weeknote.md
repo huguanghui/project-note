@@ -277,7 +277,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 ### 打字
 
-[typingclub](https://www.typingclub.com)
+[typngclub](https://www.typingclub.com)
 
 [keybr](https://www.keybr.com)
 

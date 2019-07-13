@@ -78,6 +78,7 @@ $ sudo pacman -S i3
 # 修改页面大小
 # vim ~/.Xresources
 Xft.dpi: 200
+$ 配置文件目录(~/.config/i3/config)
 ```
 
 ### 安装终端 - alacritty

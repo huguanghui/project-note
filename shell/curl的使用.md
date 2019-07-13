@@ -16,7 +16,6 @@
 
 - 准备一个Ftp的服务器
 
-<<<<<<< HEAD
 ## curl中HTTP的调用的流程分析
 
 ### HTTP-PUT 的调用
@@ -60,7 +59,7 @@ URL
 
 ```c
 data->change.url = data->set.str[STRING_SET_URL];
-=======
+```
 ### 2. 下载 github 中某个仓库中的文件
 
 ```shell
@@ -75,6 +74,6 @@ $ curl -fsSL https://github.com/LeCoupa/awesome-cheatsheets/raw/master/languages
 $ curl http://localhost:8000/api/v1/a
 # POST 方法
 $ curl -d "user=admin&passwd=12345678" http://127.0.0.1:8080/login
->>>>>>> 5495476889f9a32468e68cf0c52998572d84bba2
+
 ```
 
