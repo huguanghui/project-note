@@ -126,3 +126,13 @@ mount -t cifs -o username=user1,password=you_password //service_ip/test ./test�
 $ win键 或 alt+F1
 ```
 
+## Polybar的使用
+
+```shell
+# 安装(根据网上推荐直接使用 aur 方式安装)
+$ yaoaur -S polybar
+# 创建默认配置文件
+$ cp /usr/share/doc/polybar/config ~/.config/polybar/config
+# 执行启动命令i3启动(具体见github的template目录)
+$ ~/.config/polybar/launch.sh
+```
