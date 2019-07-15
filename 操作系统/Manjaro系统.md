@@ -136,3 +136,16 @@ $ cp /usr/share/doc/polybar/config ~/.config/polybar/config
 # 执行启动命令i3启动(具体见github的template目录)
 $ ~/.config/polybar/launch.sh
 ```
+
+## 安装 deepin 录屏软件
+
+```shell
+$ sudo pacman -S deepin-screen-recorder
+```
+
+## 终端信息显示
+
+```shell
+$ sudo pacman -S neofetch
+```
+

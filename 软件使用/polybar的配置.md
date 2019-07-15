@@ -11,3 +11,12 @@
 [github wiki](https://github.com/polybar/polybar/wiki)
 
 [polybar的风格](https://github.com/polybar/polybar-scripts)
+
+## 配置技巧
+
+### 将 bar 的背景设为透明
+
+```shell
+background = #cc222222
+```
+
