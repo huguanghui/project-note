@@ -12,6 +12,8 @@
 
 [vim插件集合](https://vimawesome.com/plugin/youcompleteme)
 
+[vim的c++开发环境](https://juejin.im/post/5cdc396af265da03576ee968)
+
 ## 常用命令
 
 ```shell
