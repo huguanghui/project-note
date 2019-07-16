@@ -288,3 +288,5 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [C/C++资源表](https://www.ctolib.com/cpp/)
 
 [polybar的几个推荐主题](https://linux.ctolib.com/adi1090x-polybar-themes.html)
+
+[nvim配置](https://github.com/theniceboy/nvim)
