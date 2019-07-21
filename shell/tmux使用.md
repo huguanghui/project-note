@@ -114,10 +114,14 @@ $ tmux detach
 $ tmux ls
 # 连接会话
 $ tmux attach -t session-name
+# 删除会话
+$ tmux kill-session -s [name]
 # 退出并保存会话
 $ ctrl+b d
 # 选择会话
 $ ctrl+b s
+# 加载配置
+$ tmux source-file ~/.tmux.conf
 ```
 
 ### 窗口
@@ -161,8 +165,6 @@ $ ctrl+b q
 ```shell
 # 安装
 $ 
-
-
 
 # 命令
 # a.安装

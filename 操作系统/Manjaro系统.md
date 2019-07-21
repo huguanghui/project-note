@@ -149,3 +149,26 @@ $ sudo pacman -S deepin-screen-recorder
 $ sudo pacman -S neofetch
 ```
 
+## Manjaro 安装字体
+
+```shell
+# 安装地址
+路径: /usr/share/fonts/TTF
+# 刷新字体
+$ fc-cache -fv
+```
+
+## nfs 服务
+
+```shell
+pacman -S nfs-utils
+将 nfs-server 加入/etc/rc.conf 中的 daemon 项。
+修改/etc/exports,在其中加入:
+/home/chinsung/workspace/test 192.168.0.0/255.255.255.0(rw,no_root_squash,sync)
+即共享本机上的/home/chinsung/workspace/test 目录,192.168.0.0/255.255.255.0 网段中的计
+算机有访问权限,文件执行权限为 rw,no_root_squash,sync。
+在客户机中执行
+mount -o rw,nolock 192.168.0.101:/home/chinsung/workspace/test ./test
+即将远程主机 192.168.0.101 上的 home/chinsung/workspace/test 目录 mount 到./test 目录中
+```
+

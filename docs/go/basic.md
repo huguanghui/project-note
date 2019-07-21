@@ -2,6 +2,8 @@
 
 # Go的源码安装
 
+[github镜像地址](https://github.com/golang)
+
 [参考](http://www.cnblogs.com/dyh004/p/9669406.html)
 
 [golang的arm安装](https://blog.csdn.net/coroutines/article/details/39522143)

@@ -87,8 +87,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 Plug 'vim-airline/vim-airline'
 ```
 
-
-
 ### YouCompleteMe 自动代码补全插件
 
 [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
@@ -102,10 +100,15 @@ $ cd ~/.vim/bundle/YouCompleteMe
 $ apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
 ```
 
-### 编译ycm_core库(需要安装cmake和python3-dev)
+#### 编译ycm_core库(需要安装cmake和python3-dev)
 
 ```shell
 $ ./install.py --clang-completer
+# 安装 ycmd 中的tool
+[submodule "third_party/go/src/golang.org/x/tools"]
+     path = third_party/go/src/golang.org/x/tools
+     url = https://github.com/golang/tools
+     ignore = dirty
 # 配置
 $ cp ~/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py ~/.vim/
 # 添加vim配置
@@ -143,14 +146,29 @@ let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 "let g:ycm_key_list_stop_completion = ['<C-y>']
 ```
 
-### 使用
+#### 使用
 
 ```shell
 # 匹配选择
 tab键
 # 头文件匹配
+```
+
+#### 进阶使用
+
+使用 Plug 中的 on 延迟加载
 
 ```
+# on 为空，后面手动加载
+Plug '~/YouCompleteMe', {'on': []}
+augroup load_ycm
+    autocmd!
+    "延迟加载，在 insert 模式手动加载插件
+    autocmd InsertEnter * call plug#load('YouCompleteMe') | autocmd! load_ycm
+augroup END
+```
+
+
 
 ### gtags 使用
 
