@@ -18,6 +18,8 @@
 
 [oh my tmux](https://github.com/gpakosz/.tmux/blob/master/.tmux.conf)
 
+[使用教程](https://linuxtoy.org/archives/tmux-resurrect-and-continuum.html)
+
 
 ## 安装
 
@@ -29,6 +31,11 @@ $ sudo apt-get install tmux
 ## 配置
 
 > tmux 的用户级配置文件的位置~/.tmux.conf
+
+```shell
+# 重载配置文件
+$ tmux source ~/.tmux.conf
+```
 
 ```shell
 # set scrollback history to 10000
@@ -164,8 +171,7 @@ $ ctrl+b q
 
 ```shell
 # 安装
-$ 
-
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 # 命令
 # a.安装
 $ ctrl+b I
