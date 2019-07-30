@@ -12,6 +12,8 @@
 
 [polybar的风格](https://github.com/polybar/polybar-scripts)
 
+[参考配置](https://github.com/lovesion/i3withpolybar-config/blob/master/polybarconfig)
+
 ## 配置技巧
 
 ### 将 bar 的背景设为透明

@@ -26,7 +26,8 @@ $ sudo pacman -S fcitx
 $ sudo pacman -S fcitx-im
 $ sudo pacman -S fcitx-configtool
 $ sudo pacman -S fcitx-sogoupinyin
-# 决搜狗输入法异常！请删除.config/SogouPY 并重启
+# 搜狗输入法异常！请删除.config/SogouPY 并重启
+# sogou-qimpanel 查看是否缺少库
 $ sudo pacman -S fcitx-qt4
 ```
 
@@ -39,7 +40,8 @@ $ sudo pacman -S google-chrome
 ### 安装录屏软件 - simplescreenrecorder
 
 ```shell
-$ sudo pacman -S simplescreenrecorder
+$ 
+sudo pacman -S simplescreenrecorder
 ```
 
 ### 安装按键显示 - screenkey
@@ -79,12 +81,15 @@ $ sudo pacman -S i3
 # vim ~/.Xresources
 Xft.dpi: 200
 $ 配置文件目录(~/.config/i3/config)
+# 退出i3
+$ mod + shift + e
 ```
 
 ### 安装终端 - alacritty
 
 ```shell
 $ sudo pacman -S alacritty
+# 配置透明度为0.6, 执行compton
 ```
 
 ### 安装 - dmenu
@@ -92,6 +97,26 @@ $ sudo pacman -S alacritty
 ```shell
 $ sudo pacman -S dmenu
 ```
+
+## feh - 壁纸管理器
+
+```shell
+$ sudo pacman -S feh
+```
+
+## variety
+
+```shell
+$ sudo pacman -S variety
+```
+
+## compton
+
+```
+$ sudo pacman -S compton
+```
+
+
 
 ### 安装 - samba
 
@@ -170,5 +195,11 @@ pacman -S nfs-utils
 在客户机中执行
 mount -o rw,nolock 192.168.0.101:/home/chinsung/workspace/test ./test
 即将远程主机 192.168.0.101 上的 home/chinsung/workspace/test 目录 mount 到./test 目录中
+```
+
+## 修改默认文本编辑器
+
+```shell
+$ echo export EDITOR=/usr/bin/vim >> ~/.bashrc 
 ```
 

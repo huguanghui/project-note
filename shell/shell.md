@@ -496,4 +496,9 @@ prt_yellow() {
 prt_yellow "${cur_path} git pull..."
 ```
 
-### 
+## vim设为默认编辑器
+
+```shell
+$ echo export EDITOR=/usr/bin/vim >> ~/.bashrc 
+```
+
