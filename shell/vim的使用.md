@@ -14,6 +14,14 @@
 
 [vim的c++开发环境](https://juejin.im/post/5cdc396af265da03576ee968)
 
+## 更新
+
+```shell
+$ sudo add-apt-repository ppa:jonathonf/vim
+$ sudo apt-get update
+$ sudo apt-get install vim
+```
+
 ## 常用命令
 
 ```shell
@@ -100,7 +108,7 @@ $ cd ~/.vim/bundle/YouCompleteMe
 $ apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
 ```
 
-#### 编译ycm_core库(需要安装cmake和python3-dev)
+#### 编译ycm_core库(需要安装cmake和python3-dev,python2.7-dev)
 
 ```shell
 $ ./install.py --clang-completer
@@ -144,6 +152,15 @@ let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 "let g:ycm_key_invoke_completion = ['<C-Space>']
 " 停止显示补全列表(防止列表影响视野), 可以按<C-Space>重新弹出
 "let g:ycm_key_list_stop_completion = ['<C-y>']
+```
+
+```shell
+ 13     ctypes.cdll.LoadLibrary( libclang_path )
+ 14   File "/usr/lib/python2.7/ctypes/__init__.py", line 440, in LoadLibrary
+ 15     return self._dlltype(name)
+ 16   File "/usr/lib/python2.7/ctypes/__init__.py", line 362, in __init__
+ 17     self._handle = _dlopen(self._name, mode)
+ 18 OSError: /root/.vim/plugged/YouCompleteMe/third_party/ycmd/third_party/clang/lib/libclang.so.8: wrong ELF class: ELFCLASS64 
 ```
 
 #### 使用
