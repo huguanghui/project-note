@@ -6,11 +6,13 @@
 
 ### linux 开发环境搭建
 
+[OpenCV](https://opencv.org/releases/)
+
+编译 OpenCV
+
 ```shell
 
 ```
-
-
 
 ## CUDA
 
