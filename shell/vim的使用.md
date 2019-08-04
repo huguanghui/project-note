@@ -200,3 +200,4 @@ $ ctags -R -f .tags
 4. ctrl+w w切换视图
 ```
 
+## python环境

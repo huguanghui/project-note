@@ -14,6 +14,8 @@
 
 [参考配置](https://github.com/lovesion/i3withpolybar-config/blob/master/polybarconfig)
 
+[awesome 图标](https://fontawesome.com/cheatsheet/free/solid)
+
 ## 配置技巧
 
 ### 将 bar 的背景设为透明

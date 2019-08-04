@@ -98,6 +98,20 @@ $ sudo pacman -S alacritty
 $ sudo pacman -S dmenu
 ```
 
+### 安装 - wechat
+
+```shell
+$ yay -S deepin-wechat
+```
+
+### 安装 - Tim
+
+```shell
+$ yay -S deepin-wine-tim
+```
+
+
+
 ## feh - 壁纸管理器
 
 ```shell
