@@ -11,8 +11,38 @@
 编译 OpenCV
 
 ```shell
+# 下载源代码
+$ cd ~/<my_working_directory>
+$ git clone https://github.com/opencv/opencv.git
+$ git clone https://github.com/opencv/opencv_contrib.git
+# 创建保持编译代码目录
+cd ~/opencv
+mkdir build
+cd build
+$ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DOPENCV_GENERATE_PKGCONFIG=ON
+# 编译
+$ make -j8
+# 生成文档
+$ cd build/doc
+$ make -j8 doxygen
+# 安装目录
+$ sudo make install
+```
+
+pkg-config的使用
+
+```shell
+export PKG_CONFIG_PATH=/usr/local/库名字/lib/pkgconfig:$PKG_CONFIG_PATH
+```
+
+ldconfig的使用
+
+```shell
+# 修改系统文件/etc/ld.so.conf，添加路径
 
 ```
+
+
 
 ## CUDA
 
