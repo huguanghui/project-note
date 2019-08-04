@@ -22,9 +22,6 @@ cd build
 $ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DOPENCV_GENERATE_PKGCONFIG=ON
 # 编译
 $ make -j8
-# 生成文档
-$ cd build/doc
-$ make -j8 doxygen
 # 安装目录
 $ sudo make install
 ```
@@ -39,7 +36,19 @@ ldconfig的使用
 
 ```shell
 # 修改系统文件/etc/ld.so.conf，添加路径
+$ ldconfig
+```
 
+生成 doxygen 文档
+
+[文档](https://docs.opencv.org/master/d4/db1/tutorial_documentation.html)
+
+```shell
+# 生成文档
+$ yay -S doxygen
+$ mkdir doc
+$ cmake -DBUILD_DOCS=ON ../opencv-4.1.1
+$ make -j8 doxygen
 ```
 
 
