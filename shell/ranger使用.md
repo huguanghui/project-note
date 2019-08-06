@@ -28,8 +28,8 @@ map DD shell mv %s ~/.Trash
 ## 自动挂载U盘
 
 ```shell
-$sudo apt-get install usbmount
-$sudo vim /etc/usbmount/usbmount.conf
+$ yay -S usbmount
+$ sudo vim /etc/usbmount/usbmount.conf
 在MOUNTOPTIONS那行添加user即可使普通用户也对挂载的U盘拥有写权限, 如下: MOUNTOPTIOS="rw,user,noatime,nodiratime"
 ```
 

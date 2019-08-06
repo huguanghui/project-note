@@ -4,6 +4,8 @@
 
 [python的官方文档](https://docs.python.org/zh-cn/3/reference/index.html)
 
+[开源标准仓库](https://pypi.org/)
+
 ## 内嵌语法
 
 ### 变量类型
@@ -76,4 +78,12 @@ import sys
 
 
 ## 扩展库
+
+```shell
+# 安装pip
+$ python -m ensurepip --default-pip
+# 更新pip
+$ pip install --upgrade pip
+# 默认安装路径 /usr/lib/python3.7/site-packages
+```
 
