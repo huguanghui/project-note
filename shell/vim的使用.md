@@ -201,3 +201,19 @@ $ ctags -R -f .tags
 ```
 
 ## python环境
+
+## markdown 插件
+
+[markdown-syntax](https://vimawesome.com/plugin/markdown-syntax)
+
+## editorconfig 插件
+
+> 统一编码格式规范
+
+[editrconfig](https://vimawesome.com/plugin/editorconfig-vim)
+
+```shell
+Plug 'editorconfig/editorconfig-vim'
+let g:EditorConfig_exclude_patterns = ['fugitive://.\*', 'scp://.\*']
+```
+
