@@ -217,3 +217,17 @@ Plug 'editorconfig/editorconfig-vim'
 let g:EditorConfig_exclude_patterns = ['fugitive://.\*', 'scp://.\*']
 ```
 
+## NeoComplete
+
+> 它通过在当前缓冲区中维护关键字的缓存来提供关键字补全.极易定制, 比内嵌补全具有更多功能.
+
+如果你使用 neovim 或 vim8+, 你应该选择[deoplete](https://github.com/Shougo/deoplete.nvim)
+
+## Deoplete
+
+> dark powered neo-completion 的缩写.在 neovim/vim8 的基础上进行扩展和异步补全框架.deoplete 默认通过 complete 进行补全.
+
+```shell
+export PYTHONPATH=/home/hgh/.local/lib/python3.7/site-packages
+```
+

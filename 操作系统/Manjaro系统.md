@@ -15,6 +15,9 @@
 ```shell
 # 选择中国最快的镜像
 $ sudo pacman-mirrors -c China
+# 设置archlinuxcn源
+# 更新源列表
+$ sudo pacman-mirrors -g
 # 更新系统
 $ sudo pacman -Syyu
 ```
