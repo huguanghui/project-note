@@ -14,3 +14,11 @@
 $ python -m pydoc -p 0
 ```
 
+## VS Code的配置
+
+### import当前路径错误
+
+```markdown
+python.Jedi Enabled 的使能开启
+```
+
