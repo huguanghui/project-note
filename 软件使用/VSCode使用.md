@@ -137,3 +137,24 @@ $ net start LxssManager
 
 > 
 
+### c/c++的系统默认include路径配置
+
+```shell
+# c++
+$ gcc -v -x c++ -E -
+# c
+$ gcc -v -x c -E -
+```
+
+```json
+	"C_Cpp.default.systemIncludePath": [
+		"/opt/hisi-linux/x86-arm/arm-hisiv500-linux/bin/../lib/gcc/arm-hisiv500-linux-uclibcgnueabi/4.9.4/../../../../arm-hisiv500-linux-uclibcgnueabi/include/c++/4.9.4",
+		"/opt/hisi-linux/x86-arm/arm-hisiv500-linux/bin/../lib/gcc/arm-hisiv500-linux-uclibcgnueabi/4.9.4/../../../../arm-hisiv500-linux-uclibcgnueabi/include/c++/4.9.4/arm-hisiv500-linux-uclibcgnueabi",
+		"/opt/hisi-linux/x86-arm/arm-hisiv500-linux/bin/../lib/gcc/arm-hisiv500-linux-uclibcgnueabi/4.9.4/../../../../arm-hisiv500-linux-uclibcgnueabi/include/c++/4.9.4/backward",
+		"/opt/hisi-linux/x86-arm/arm-hisiv500-linux/bin/../lib/gcc/arm-hisiv500-linux-uclibcgnueabi/4.9.4/include",
+		"/opt/hisi-linux/x86-arm/arm-hisiv500-linux/bin/../lib/gcc/arm-hisiv500-linux-uclibcgnueabi/4.9.4/include-fixed",
+		"/opt/hisi-linux/x86-arm/arm-hisiv500-linux/bin/../lib/gcc/arm-hisiv500-linux-uclibcgnueabi/4.9.4/../../../../arm-hisiv500-linux-uclibcgnueabi/include",
+		"/opt/hisi-linux/x86-arm/arm-hisiv500-linux/bin/../target/usr/include"
+	]
+```
+
