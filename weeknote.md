@@ -312,3 +312,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [收集链接](https://github.com/guanguans/favorite-link)
 
 [中国传统颜色手册](https://colors.ichuantong.cn/)
+
+## 第八期
+
+[pyqt5技巧博客](https://zmister.com/archives/category/data-apply/pyqtgtaph-tutorial/)
