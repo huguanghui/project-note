@@ -22,10 +22,12 @@
 ### 图标
 
 > 使用VSCode Great Icons
+>
+> 使用Material Icon Theme
 
 ### 主题
 
-> 使用Bracket主题插件
+> 使用Bracket主题插件 Bracket Light Pro
 >
 > 背景颜色改为 204 232 207 或 #CCE8CF
 
