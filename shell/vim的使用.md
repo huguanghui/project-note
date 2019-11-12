@@ -236,3 +236,14 @@ export PYTHONPATH=/home/hgh/.local/lib/python3.7/site-packages
 ### 使用vim自动识别编码格式文档
 
 ### 检索模型
+
+## ultisnips的使用
+
+```shell
+# 引擎
+Plugin 'SirVer/ultisnips'
+# 代码块集合
+Plugin 'honza/vim-snippets'
+```
+
+## 使用vim快速编辑markdown文档
