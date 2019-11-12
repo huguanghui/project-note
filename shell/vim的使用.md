@@ -231,3 +231,14 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.\*', 'scp://.\*']
 export PYTHONPATH=/home/hgh/.local/lib/python3.7/site-packages
 ```
 
+## ultisnips的使用
+
+```shell
+# 引擎
+Plugin 'SirVer/ultisnips'
+# 代码块集合
+Plugin 'honza/vim-snippets'
+```
+
+## 使用vim快速编辑markdown文档
+
