@@ -231,3 +231,8 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.\*', 'scp://.\*']
 export PYTHONPATH=/home/hgh/.local/lib/python3.7/site-packages
 ```
 
+## 问题
+
+### 使用vim自动识别编码格式文档
+
+### 检索模型
