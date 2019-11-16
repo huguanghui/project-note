@@ -324,3 +324,13 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [windows的命令行包管理工具](https://www.jianshu.com/p/50993df76b1c)
 
 [Leetcode刷题](https://leetcode-cn.com/)
+
+[squashfs源码](https://sourceforge.net/projects/squashfs/files/)
+
+[cscope使用](http://cscope.sourceforge.net/)
+
+[Bartek的编码博客](https://www.bfilipek.com/2019/10/cppecosystem.html)
+
+[Uber的Go编程规范](https://github.com/uber-go/guide/blob/master/style.md)
+
+[OpenDiablo2](https://github.com/OpenDiablo2/OpenDiablo2)
