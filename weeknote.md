@@ -334,3 +334,6 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [Uber的Go编程规范](https://github.com/uber-go/guide/blob/master/style.md)
 
 [OpenDiablo2](https://github.com/OpenDiablo2/OpenDiablo2)
+
+[一个免费开源、跨平台的可视化源码探索项目](https://github.com/CoatiSoftware/Sourcetrail)
+
