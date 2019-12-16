@@ -16,7 +16,15 @@
 
 [从零使用qemu模拟器搭建arm开发环境](https://blog.csdn.net/linyt/article/details/42504975)
 
-## 下载kernel源码
+## QEMU源码
+
+```shell
+git clone git://git.qemu-project.org/qemu.git
+```
+
+
+
+## kernel源码
 
 ```shell
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
