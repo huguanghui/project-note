@@ -88,6 +88,13 @@ $ 配置文件目录(~/.config/i3/config)
 $ mod + shift + e
 ```
 
+```shell
+#polybar配置
+exec --no-startup-id $HOME/.config/polybar/launch.sh
+```
+
+
+
 ### 安装终端 - alacritty
 
 ```shell
