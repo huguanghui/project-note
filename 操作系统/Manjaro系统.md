@@ -226,4 +226,3 @@ mount -o rw,nolock 192.168.0.101:/home/chinsung/workspace/test ./test
 ```shell
 $ echo export EDITOR=/usr/bin/vim >> ~/.bashrc 
 ```
-
