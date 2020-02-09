@@ -237,3 +237,7 @@ mount -o rw,nolock 192.168.0.101:/home/chinsung/workspace/test ./test
 ```shell
 $ echo export EDITOR=/usr/bin/vim >> ~/.bashrc 
 ```
+
+## 安装微信,迅雷,网易云音乐,百度网盘
+
+https://www.jianshu.com/p/e4d2c3698ec9
