@@ -30,3 +30,6 @@ $ export GOPATH=$(go env GOPATH)
 $ export PATH=$PATH:$GOPATH/bin
 ```
 
+go代理设置
+
+[golang国内代理设置](https://www.cnblogs.com/rongfengliang/p/11419210.html)

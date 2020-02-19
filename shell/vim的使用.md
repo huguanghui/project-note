@@ -111,7 +111,7 @@ $ apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
 #### 编译ycm_core库(需要安装cmake和python3-dev,python2.7-dev)
 
 ```shell
-$ ./install.py --clang-completer
+$ ./install.py --clang-completer --go-completer
 # 安装 ycmd 中的tool
 [submodule "third_party/go/src/golang.org/x/tools"]
      path = third_party/go/src/golang.org/x/tools

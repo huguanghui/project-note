@@ -16,3 +16,7 @@ NisHFBTcWJS0sC5BTFwrtfLEE9lEwz2bxHQpWJiu12ZeKpi+7oUSqebX+
 --- END LICENSE KEY -----
 ```
 
+## Linux下的破解方法
+
+[破解方法](https://blog.csdn.net/qq_26012495/article/details/86514147?utm_source=distribute.pc_relevant.none-task)
+
