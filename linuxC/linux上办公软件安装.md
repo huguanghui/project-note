@@ -2,6 +2,14 @@
 
 # linux上软件安装
 
+## 开启root登录
+
+```shell
+#/usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf
+greeter-show-manual-login=true      #手工输入登陆系统的用户名和密码
+allow-guest=false         #不允许guest登录（可选）
+```
+
 ## ssh服务
 
 > 使用secureCRT能远程操作服务器

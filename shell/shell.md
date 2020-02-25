@@ -10,6 +10,8 @@
 
 [/usr/bin/env和/usr/bin/bash的比较](https://blog.csdn.net/austin_zhou001/article/details/46591169)
 
+[shell替换整行](https://blog.csdn.net/qq_42016265/article/details/90711264)
+
 # Linux的常用命令使用
 
 ## 网络操作
