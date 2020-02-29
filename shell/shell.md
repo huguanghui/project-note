@@ -298,8 +298,16 @@ $ awk -f awk-script-file  input-file(s)
 ####   样例
 
 ```shell
-$ sed -e s/Last\ Changed\ Rev:\ //g
+$ sed -e s/Last\ Changed\ Rev:\ //g //获取 SVN 上次提交的版本号
 ```
+
+##### 示例01
+
+```markdown
+$ sed -e 's/^.*"\(.*\)".*/\1/') // 截取""内的参数
+```
+
+
 
 ### cut
 
