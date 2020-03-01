@@ -28,18 +28,20 @@ $ sudo apt-get install vim
 [operate][count][action]
 ```
 
-| 描述       | 按键                |
-| ---------- | ------------------- |
-| 移动       | h-左 l-右 j-下 k-上 |
-| 删除到行尾 | d$或D               |
-| 复制到行尾 | y$                  |
-| 行尾编辑   | shift+a             |
-| 行首编辑   | shift+i             |
-| 上一行编辑 | shift+o             |
-| 下一行编辑 | o                   |
-| 垂直分屏   | :sp                 |
-| 水平分屏   | :vsp                |
-|            |                     |
+| 描述               | 按键                |
+| ------------------ | ------------------- |
+| 移动               | h-左 l-右 j-下 k-上 |
+| 删除到行尾         | d$或D               |
+| 复制到行尾         | y$                  |
+| 行尾编辑           | shift+a             |
+| 行首编辑           | shift+i             |
+| 上一行编辑         | shift+o             |
+| 下一行编辑         | o                   |
+| 垂直分屏           | :sp                 |
+| 水平分屏           | :vsp                |
+| 选中当前位置到行尾 | v$                  |
+| 向后跳转           | f[word]             |
+| 向前跳转           |                     |
 
 ## 配置
 
@@ -230,6 +232,21 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.\*', 'scp://.\*']
 ```shell
 export PYTHONPATH=/home/hgh/.local/lib/python3.7/site-packages
 ```
+
+## Snippets
+
+### coc-snippets
+
+```shell
+#vim添加coc引擎
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+#安装coc-snippets
+CocInstall coc-snippets
+```
+
+
+
+### vim-snippets
 
 ## 问题
 
