@@ -283,7 +283,11 @@ $ awk -f awk-script-file  input-file(s)
 
 ### sed
 
-> sed是一个流编辑器
+> sed是一个非交互性文本流编辑器
+> 基本使用
+> a. 显示
+> b. 搜索后新增
+> c. 搜索后替换
 
 #### 选项
 
@@ -304,6 +308,7 @@ $ sed -e s/Last\ Changed\ Rev:\ //g //获取 SVN 上次提交的版本号
 ##### 示例01
 
 ```markdown
+#define NGINX_VERSION      "1.16.1"
 $ sed -e 's/^.*"\(.*\)".*/\1/') // 截取""内的参数
 ```
 
