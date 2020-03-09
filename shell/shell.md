@@ -560,3 +560,9 @@ prt_yellow "${cur_path} git pull..."
 $ echo export EDITOR=/usr/bin/vim >> ~/.bashrc 
 ```
 
+## tcpdump 使用
+
+```shell
+$ tcpdump -i enp0s3 "host 192.168.1.112" -w test.pcap
+```
+

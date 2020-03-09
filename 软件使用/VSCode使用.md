@@ -113,6 +113,15 @@ Host ubuntu18.04
 
 解决需要在终端上重复输入密码:
 
+[参考链接](https://blog.csdn.net/qq_41554005/article/details/103103443)
+
+```shell
+scp %USERPROFILE%\.ssh\id_rsa.pub 192.168.1.41:~/tmp.pub
+touch ~/.ssh/authorized_keys
+cat ~/tmp.pub >> ~/.ssh/authorized_keys
+rm -f ~/tmp.pub
+```
+
 使用ssh的RAS进行免认证.（将本机上的rsa和rsa.pub文件拷贝到远程机上）
 
 ```shell
