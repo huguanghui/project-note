@@ -90,7 +90,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 | `PlugDiff`                          | Examine changes from the previous update and the pending changes |
 | `PlugSnapshot[!] [output path]`     | Generate script for restoring the current snapshot of the plugins |
 
-## vim-airline 显示风格插件
+### vim-airline 显示风格插件
 
 [vim-airline](https://github.com/vim-airline/vim-airline)
 
@@ -201,6 +201,12 @@ $ ctags -R -f .tags
 2. ctrl +t或+o //返回
 3.:TlistToggle显示索引表
 4. ctrl+w w切换视图
+```
+
+### 多文件操作
+
+```
+
 ```
 
 ## python环境

@@ -112,6 +112,8 @@ $ mknod /dev/cobing/mydev1 c 128 512
 $ arm-hisiv500-linux-nm -A *.a | grep HY_PkgStream_DataPopCreate
 # 查看动态库的函数是否定义
 $ arm-hisiv500-linux-nm -D yourLib.so |grep -w yourFunction
+# 查看进程动态依赖库
+$ readelf -a program | grep "Shared"
 ```
 
 ## 文本处理
