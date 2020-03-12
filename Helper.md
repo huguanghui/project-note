@@ -84,3 +84,10 @@ vi-mode
 ```shell
 wget "https://git.samba.org/samba.git/?p=samba.git;a=blob_plain;f=examples/smb.conf.default;hb=HEAD" -O /etc/samba/smb.conf
 ```
+
+```shell
+https://github.com/xmake-io/xmake/releases/download/v2.3.1/xmake-v2.3.1.xz.run
+https://github.com/xmake-io/xmake/releases/download/v2.3.1/xmake-v2.3.1.xz.run
+https://github.com/xmake-io/xmake/releases/download/v2.3.1/xmake-v2.3.1.xz.run
+```
+
