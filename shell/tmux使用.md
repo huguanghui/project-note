@@ -31,6 +31,8 @@ $ sudo apt-get install tmux
 ## 配置
 
 > tmux 的用户级配置文件的位置~/.tmux.conf
+>
+> 基于oh my tmux进行优化
 
 ```shell
 # 重载配置文件
