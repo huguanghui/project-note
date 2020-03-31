@@ -11,7 +11,7 @@
 ### cscope
 
 ```shell
-$ find . -name "*.c" -o -name "*.h" -o -name "*.cpp" > cscope.files
+$ find . -name "*.c" -o -name "*.h" -o -name "*.cpp" -o -name "*.cc" > cscope.files
 $ cscope -Rbkq -i cscope.files
 ```
 
