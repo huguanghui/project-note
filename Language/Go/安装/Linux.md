@@ -33,3 +33,15 @@ $ export PATH=$PATH:$GOPATH/bin
 go代理设置
 
 [golang国内代理设置](https://www.cnblogs.com/rongfengliang/p/11419210.html)
+
+# 解决国内 go get 无法下载的问题
+
+```
+# 使用七牛云module
+$ go env -w GO111MODULE=on
+$ go env -w GOPROXY=https://goproxy.cn,direct
+# 使用阿里module
+$ go env -w GO111MODULE=on
+$ go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
+```
+
