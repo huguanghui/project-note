@@ -209,6 +209,10 @@ $ ctags -R -f .tags
 
 ```
 
+### fzf 使用
+
+[博客](https://zhuanlan.zhihu.com/p/41859976)
+
 ## python环境
 
 ## markdown 插件
