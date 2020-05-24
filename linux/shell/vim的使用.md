@@ -255,23 +255,36 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 CocInstall coc-snippets
 ```
 
-
-
 ### vim-snippets
 
-## 问题
+#### 问题
 
-### 使用vim自动识别编码格式文档
+#### 使用vim自动识别编码格式文档
 
-### 检索模型
+#### 检索模型
 
-## ultisnips的使用
+#### ultisnips的使用
 
 ```shell
 # 引擎
-Plugin 'SirVer/ultisnips'
+Plug 'SirVer/ultisnips'
 # 代码块集合
-Plugin 'honza/vim-snippets'
+Plug 'honza/vim-snippets'
 ```
 
 ## 使用vim快速编辑markdown文档
+
+## easymotion
+
+### 链接
+
+[github](https://github.com/easymotion/vim-easymotion)
+
+### 安装
+
+```shell
+Plug 'easymotion/vim-easymotion'
+```
+
+### 使用
+
