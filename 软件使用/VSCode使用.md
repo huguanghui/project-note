@@ -169,3 +169,6 @@ $ gcc -v -x c -E -
 	]
 ```
 
+## 绘制流程图
+
+[博客](https://baijiahao.baidu.com/s?id=1667351591614061966&wfr=spider&for=pc)
