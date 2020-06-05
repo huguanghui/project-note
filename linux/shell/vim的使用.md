@@ -302,3 +302,8 @@ Plug 'easymotion/vim-easymotion'
 |     do      | 差异同步到本一个文件中 |
 | :diffupdate |        刷新页面        |
 
+## vimspector
+
+### 链接
+
+[github](https://github.com/puremourning/vimspector)
