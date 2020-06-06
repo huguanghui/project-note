@@ -1,0 +1,30 @@
+<mxfile host="" modified="2020-06-06T02:42:08.057Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.1 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" etag="-YPVlHe5VBH4shiz94qJ" version="13.1.3" pages="2">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="对讲流程">
+        <mxGraphModel dx="737" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="h3lkZr3MFzcperNzzBHC-2" value="开启对讲" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="290" width="60" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="fCQ4ZKaXisylWk6yPvvg" name="播报流程">
+        <mxGraphModel dx="737" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="sDWf7rQycvPIitSvZFlK-0"/>
+                <mxCell id="sDWf7rQycvPIitSvZFlK-1" parent="sDWf7rQycvPIitSvZFlK-0"/>
+                <mxCell id="ERYVIMbmc1EnxKc2xe5c-0" value="1.数组保存语音播报&lt;br&gt;2. 线程检测数组" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="sDWf7rQycvPIitSvZFlK-1">
+                    <mxGeometry x="70" y="90" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ERYVIMbmc1EnxKc2xe5c-6" value="语音播报流程" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="sDWf7rQycvPIitSvZFlK-1">
+                    <mxGeometry x="115" y="175" width="90" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
