@@ -196,3 +196,11 @@ $ gcc -v -x c -E -
 #### 方案三
 
 > 使用xmake插件进行调试，调试不了第三方库
+
+使用vscode进行 xmake 调试要注意在 lua 中加入一下配置
+
+```lua
+-- add modes: debug and release
+add_rules("mode.debug", "mode.release")
+```
+
