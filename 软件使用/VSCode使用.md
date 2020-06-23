@@ -192,3 +192,35 @@ $ gcc -v -x c -E -
 ## 绘制流程图
 
 [博客](https://baijiahao.baidu.com/s?id=1667351591614061966&wfr=spider&for=pc)
+
+### 问题
+
+#### 解决中文乱码问题
+
+## 调试功能
+
+### C/C++调试
+
+#### 方案一
+
+> 使用 tasks.json + launch.json 方式来进行调试
+
+适用场景
+
+> 文件单一, 依赖库少的情况
+
+#### 方案二
+
+> 使用cmake插件进行调试, 调试不了第三方库
+
+#### 方案三
+
+> 使用xmake插件进行调试，调试不了第三方库
+
+使用vscode进行 xmake 调试要注意在 lua 中加入一下配置
+
+```lua
+-- add modes: debug and release
+add_rules("mode.debug", "mode.release")
+```
+
