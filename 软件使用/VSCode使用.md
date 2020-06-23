@@ -130,6 +130,26 @@ $ ssh-copy-id -i id_rsa-remote-ssh.pub 192.168.0.8
 
 该功能对32为的远程机器进行连接
 
+#### 监测文件数
+
+##### 修改最大值
+
+```shell
+$ cat /proc/sys/fs/inotify/max_user_watches
+# 配置/etc/sysctl.conf 新增 fs.inotify.max_user_watches=524288
+$ sudo sysctl -p
+```
+
+##### 过滤文件
+
+```json
+"files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  }
+```
+
 ### 远程WSL
 
 #### wsl的重启
