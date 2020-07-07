@@ -213,6 +213,13 @@ $ ctags -R -f .tags
 
 [博客](https://zhuanlan.zhihu.com/p/41859976)
 
+### ale - 语法检测插件
+
+[github](https://github.com/dense-analysis/ale)
+
+[博客](https://blog.csdn.net/demorngel/article/details/69052789)
+[博客](https://segmentfault.com/a/1190000016405629)
+
 ## python环境
 
 ## markdown 插件
