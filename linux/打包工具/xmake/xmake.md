@@ -18,3 +18,9 @@ add_ldflags("-static")
 xmake create -l c -P ./hello
 ```
 
+## 生成compile_commands
+
+```
+xmake project -k compile_commands
+```
+

@@ -14,6 +14,10 @@
 
 [vim的c++开发环境](https://juejin.im/post/5cdc396af265da03576ee968)
 
+[C/C++环境搭建](http://www.skywind.me/blog/archives/2084)
+
+[vim本地配置](https://github.com/thinca/vim-localrc)
+
 ## 更新
 
 ```shell
@@ -114,7 +118,7 @@ $ apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
 #### 编译ycm_core库(需要安装cmake和python3-dev,python2.7-dev)
 
 ```shell
-$ ./install.py --clang-completer --go-completer
+$  ./install.py --clang-completer --go-completer
 # 安装 ycmd 中的tool
 [submodule "third_party/go/src/golang.org/x/tools"]
      path = third_party/go/src/golang.org/x/tools
