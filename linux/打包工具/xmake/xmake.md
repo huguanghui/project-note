@@ -2,9 +2,7 @@
 
 ## 链接
 
-[xmake官网
-
-](https://xmake.io/#/zh-cn/getting_started)
+[xmake官网](https://xmake.io/#/zh-cn/getting_started)
 
 ## xmake的静态编译
 
@@ -21,6 +19,10 @@ xmake create -l c -P ./hello
 ## 生成compile_commands
 
 ```
-xmake project -k compile_commands
+$ xmake project -k compile_commands
+```
+
+```
+$ xmake require --info tbox
 ```
 
