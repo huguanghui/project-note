@@ -155,3 +155,7 @@ $ svn switch --relocate http://192.168.1.4/svn/zview_4sdi_dvr/firmware/projects_
 ### 已修改的版本回滚
 
 ### 当前目录切换到历史版本
+
+### git status 中文路径显示八进制数字
+
+> 解决办法: git 配置文件 core.quotepath 项设置为 false
