@@ -230,6 +230,8 @@ $ ctags -R -f .tags
 
 [markdown-syntax](https://vimawesome.com/plugin/markdown-syntax)
 
+[vim+markdown](https://zhuanlan.zhihu.com/p/84773275)
+
 ## editorconfig 插件
 
 > 统一编码格式规范
