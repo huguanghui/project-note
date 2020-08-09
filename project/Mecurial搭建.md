@@ -203,4 +203,101 @@ syntax: regexp
 ^\.pc/
 ```
 
+## nginx + mercurial 搭建一个服务器
+
+> 使用 hgweb 和 nginx 的反向代理公开仓库
+
+### hgweb(with  uwsgi)
+
+#### uwsgi 安装
+
+> uwsgi 是一个线路协议, 而不是通讯协议
+
+```shell
+$apt-get install uwsgi uwsgi-plugins-all
+```
+
+配置
+
+```shell
+# /etc/uwsgi/apps-available/hgweb.ini
+[uwsgi]
+processes = 2
+socket = /run/uwsgi/app/hgweb/socket
+chdir = /var/www/hg
+wsgi-file = hgweb.wsgi
+uid = www-data
+gid = www-dat
+# 创建软链接
+$ ln -s /etc/uwsgi/apps-available/hgweb.ini hgweb.ini
+```
+
+```shell
+# /var/www/hg/hgweb.wsgi
+config = "/var/www/hg/hgweb.config"
+import os
+os.environ["HGENCODING"] = "UTF-8"
+import cgitb; cgitb.enable()
+from mercurial import demandimport; demandimport.enable()
+from mercurial.hgweb import hgweb
+application = hgweb(config)
+```
+
+```shell
+# /var/www/hg/hgweb.config
+[paths]
+/ = /var/www/hg/repos/*
+[web]
+style = gitweb
+baseurl = http://mygoodserver.org/hg/
+contact = Who knows!
+staticurl = /hg/static
+```
+
+```shell
+# nginx 配置
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server ipv6only=on;
+
+        root /var/www;
+        index index.html index.htm;
+
+        # Make site accessible from http://localhost/
+        server_name localhost mygoodserver mygoodserver.org;
+
+        location /hg/ {
+                uwsgi_pass unix:/run/uwsgi/app/hgweb/socket;
+                include uwsgi_params;
+                uwsgi_param SERVER_ADDR $server_addr;
+#Note 1
+                uwsgi_param REMOTE_USER $remote_user;
+#Note 2
+                uwsgi_modifier1 30;
+                uwsgi_param SCRIPT_NAME /hg;
+
+#Note 3
+                limit_except GET HEAD {
+                        allow 192.168.10.0/24;
+                        allow 127.0.0.1;
+                        allow ::1;
+                        deny all;
+                        auth_basic "Mercurial repository";
+                        auth_basic_user_file /var/www/hg/.htpasswd;
+                }
+        }
+
+        location /hg/static {
+                alias /usr/share/mercurial/templates/static/;
+                expires 30d;
+        }
+}
+```
+
+运行
+
+```shell
+$ uwsgi -d --ini hgweb.ini --thunder-lock
+$ nginx -s reload
+```
 
