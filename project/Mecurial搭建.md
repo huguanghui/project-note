@@ -207,6 +207,8 @@ syntax: regexp
 
 > 使用 hgweb 和 nginx 的反向代理公开仓库
 
+[help](https://www.mercurial-scm.org/wiki/PublishRepositoriesOnNginx?action=show&redirect=HgServeNginx)
+
 ### hgweb(with  uwsgi)
 
 #### uwsgi 安装
