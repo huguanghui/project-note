@@ -93,7 +93,9 @@ $ mod + shift + e
 exec --no-startup-id $HOME/.config/polybar/launch.sh
 ```
 
+#### 扩展屏安装
 
+> exec --no-startup-id xrandr --output HDMI1 --auto --left-of eDP1
 
 ### 安装终端 - alacritty
 
