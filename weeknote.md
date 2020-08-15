@@ -342,3 +342,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 第九期
 
 [源码管理](https://www.perforce.com/)
+
+[code.net](https://hhhggghhh.coding.net/login)
+
+[chegva](https://chegva.com/zabbix-monitor/)
