@@ -29,3 +29,26 @@ $ sudo apt-get update
 $ sudo apt-get install gitlab-ce
 ```
 
+### gitlab的控制命令
+
+| 命令功能                   | 执行命令                                       |
+| -------------------------- | ---------------------------------------------- |
+| 重启配置，并启动gitlab服务 | sudo  gitlab-ctl reconfigure                   |
+| 启动所有 gitlab            | sudo gitlab-ctl start                          |
+| 重新启动GitLab             | sudo  gitlab-ctl restart                       |
+| 停止所有 gitlab            | sudo gitlab-ctl stop                           |
+| 查看服务状态               | sudo gitlab-ctl status                         |
+| 查看Gitlab日志             | sudo gitlab-ctl tail                           |
+| 修改默认的配置文件         | sudo vim /etc/gitlab/gitlab.rb                 |
+| 检查gitlab                 | gitlab-rake gitlab:check SANITIZE=true --trace |
+
+## 汉化
+
+```
+$ cp -r /opt/gitlab/embedded/service/gitlab-rails{,.ori} 
+$ git clone https://github.com/larryli/gitlabhq.git
+$ sudo gitlab-ctl stop
+$ sudo cp -rf /root/gitlabhq/* /opt/gitlab/embedded/service/gitlab-rails/
+$ sudo gitlab-ctl start 
+```
+
