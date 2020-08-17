@@ -22,3 +22,11 @@ $ python -m pydoc -p 0
 python.Jedi Enabled 的使能开启
 ```
 
+```shell
+$ pip --default-timeout=600 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+```
+
+```
+pip --default-timeout=600 install -i  http://mirrors.aliyun.com/pypi/simple/ opencv-python
+```
+
