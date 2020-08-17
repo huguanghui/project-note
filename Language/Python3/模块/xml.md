@@ -6,6 +6,8 @@
 
 [lxml的使用入门](https://www.cnblogs.com/zhangxinqi/p/9210211.html)
 
+[lxml的简单封装](https://blog.csdn.net/destinymf/article/details/102585154)
+
 ## 简介
 
 > python的一个解析库，支持HTML和XML的解析，支持XPath解析方式，而且解析效率非常高
