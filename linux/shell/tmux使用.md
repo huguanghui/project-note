@@ -209,3 +209,14 @@ $ ctrl+b ctrl+s
 $ ctrl+b ctrl+r
 ```
 
+### 问题点
+
+#### 滚动问题
+
+```shell
+prefix + [
+prefix + PgUp/PgDn
+进入滚动模式后可以使用vi中的移动方式
+shift + j/k 进行屏幕滚动
+```
+

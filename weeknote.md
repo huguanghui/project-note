@@ -356,3 +356,8 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [neovim](https://github.com/neovim/neovim)
 
 [libuv](https://github.com/libuv/libuv)
+
+[基于共享内存的队列](https://github.com/DGuco/shmqueue)
+
+[openhislicon](https://github.com/openhisilicon)
+
