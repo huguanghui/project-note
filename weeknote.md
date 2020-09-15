@@ -361,3 +361,10 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [openhislicon](https://github.com/openhisilicon)
 
+[media-server](https://github.com/ireader/media-server)
+
+[fishcOD](https://www.cr173.com/soft/87892.html)
+
+[ida pro使用](https://blog.csdn.net/larry_zeng1/article/details/89349542)
+
+[ida的安装和使用](https://blog.csdn.net/limingandritchie/article/details/104409800/)
