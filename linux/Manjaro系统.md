@@ -6,6 +6,8 @@
 
 [Manjaro](https://www.manjaro.cn/)
 
+[manjaro](https://www.cnblogs.com/elinuxboy/p/10123877.html#_label8_1)
+
 ## Arch, Debian
 
 ## 初期配置
