@@ -8,6 +8,8 @@
 
 [manjaro](https://www.cnblogs.com/elinuxboy/p/10123877.html#_label8_1)
 
+[更换系统语言](http://ddrv.cn/a/172695)
+
 ## Arch, Debian
 
 ## 初期配置
@@ -245,3 +247,4 @@ $ echo export EDITOR=/usr/bin/vim >> ~/.bashrc
 ## 安装微信,迅雷,网易云音乐,百度网盘
 
 https://www.jianshu.com/p/e4d2c3698ec9
+
