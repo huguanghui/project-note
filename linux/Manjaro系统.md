@@ -248,3 +248,20 @@ $ echo export EDITOR=/usr/bin/vim >> ~/.bashrc
 
 https://www.jianshu.com/p/e4d2c3698ec9
 
+## virtualbox 安装扩展增强失败问题
+
+```
+# 手动挂载
+$lsblk
+$sudo mount /dev/sr0 /mnt/cdrom
+# 补充
+## 挂载光驱
+$ mount -t iso9660 /dev/sr0 /mnt/cdrom/
+## 挂载ios文件
+mount -o loop /usr/local/rhel-server-6.4-x86_64-dvd.iso /mnt/cdrom
+# 安装kernel-headers
+$ sudo pacman -S linux-headers
+# 执行增强脚本
+$ sudo ./VBoxLinuxAdditons.run
+```
+
