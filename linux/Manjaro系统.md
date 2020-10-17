@@ -265,3 +265,13 @@ $ sudo pacman -S linux-headers
 $ sudo ./VBoxLinuxAdditons.run
 ```
 
+## Samba 挂载异常
+
+### 问题描述
+
+> manjaro 系统中使用 pacman 安装的samba软件在, 自己系统之间能正常挂载, 但在 Win 和 Ubuntu 系统之前的挂载会返回
+>
+> $ smbclient -L 192.168.3.226
+> WARNING: The "syslog" option is deprecated
+> Enter root's password:
+> protocol negotiation failed: NT_STATUS_INVALID_NETWORK_RESPONSE

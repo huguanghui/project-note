@@ -39,7 +39,7 @@ go代理设置
 ```
 # 使用七牛云module
 $ go env -w GO111MODULE=on
-$ go env -w GOPROXY=https://goproxy.cn,direct
+$ F
 # 使用阿里module
 $ go env -w GO111MODULE=on
 $ go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
