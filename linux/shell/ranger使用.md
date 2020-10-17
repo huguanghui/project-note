@@ -33,3 +33,9 @@ $ sudo vim /etc/usbmount/usbmount.conf
 在MOUNTOPTIONS那行添加user即可使普通用户也对挂载的U盘拥有写权限, 如下: MOUNTOPTIOS="rw,user,noatime,nodiratime"
 ```
 
+## 图片预览
+
+```shell
+
+```
+
