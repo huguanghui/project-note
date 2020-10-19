@@ -6,9 +6,9 @@
 
 ## 20201012
 
-- [ ] ag的字符串匹配搜索
-- [ ] 常用的网络接口命令
-- [ ] 目标文件分析
+- [x] ag的字符串匹配搜索
+- [x] 常用的网络接口命令
+- [x] 目标文件分析
 
 ### 目标文件分析
 
@@ -45,13 +45,13 @@ Usage: ag [FILE-TYPE] [OPTIONS] PATTERN [PATH]
 
 ## 20201013
 
-- [ ] revert-i-search的用法
-- [ ] shell下快读移动技巧 (ctrl +a ctrl + e ctrl + w)
+- [x] revert-i-search的用法
+- [x] shell下快读移动技巧 (ctrl +a ctrl + e ctrl + w)
 
 ## 20201015
 
-- [ ] apt的软件包搜索
-- [ ] ranger图片预览
+- [x] apt的软件包搜索
+- [x] ranger图片预览
 
 ### apt操作
 
@@ -65,3 +65,12 @@ $ apt-cache search 包名
 使用 ueberzug 进行图像预览, 但测试虚拟机不支持pip3, 软件安装失败
 ```
 
+## 20201016
+
+- [x] 按格式搜索文件
+- [ ] vim录制宏操作
+
+## 20201019
+
+- [ ] 计算机原理_进程
+- [ ] flash操作

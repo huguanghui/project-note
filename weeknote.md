@@ -389,3 +389,9 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [SRS](https://github.com/ossrs/srs)
 
 [state-threads](https://github.com/ossrs/state-threads)
+
+[IPC编译架构](https://github.com/balajip/e_wificam/tree/217edee1b51e3bdbc85edecb22fc82c76e83a16a)
+
+[mtd_debug源码](http://www.linux-mtd.infradead.org/)
+
+[mtd_debug的交叉编译](https://www.xuebuyuan.com/1341090.html)
