@@ -395,3 +395,5 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [mtd_debug源码](http://www.linux-mtd.infradead.org/)
 
 [mtd_debug的交叉编译](https://www.xuebuyuan.com/1341090.html)
+
+[shell执行mtd_debug的命令参考](https://github.com/zhangheng408/tools/blob/master/bios_tool/update_uboot.sh)
