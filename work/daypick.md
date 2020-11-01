@@ -84,8 +84,8 @@ $ apt-cache search 包名
 - [x] vim 配置调整
 - [ ] vim 文档更新
 - [ ] nvim + vscode
-- [ ] 
 - [ ] coc
+- [ ] 
 - [ ] tmux 配置
 
 hview
