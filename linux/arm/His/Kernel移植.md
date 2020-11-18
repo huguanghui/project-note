@@ -7,6 +7,12 @@
 - hi3516DV300
 - Hi3516CV500_SDK_V2.0.1.0.tgz
 
+##  内核编译
+
+```shell
+$ cp arch/arm/configs/hi3516dv300_smp_defconfig .config
+```
+
 ## 烧写 kernel
 
 ```shell
