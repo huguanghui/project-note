@@ -403,3 +403,5 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [DrChip](http://www.drchip.org/astronaut/vim/index.html)
 
 [Understand](https://licensing.scitools.com/download)
+
+[海康萤石智能门锁的网关分析](https://www.52pojie.cn/thread-1255338-1-1.html)
