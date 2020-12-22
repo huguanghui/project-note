@@ -407,3 +407,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [海康萤石智能门锁的网关分析](https://www.52pojie.cn/thread-1255338-1-1.html)
 
 [understand的术语介绍](https://blog.csdn.net/dddxxxx/article/details/77736720)
+
+## 第十一期
+
+[cheatsheets](https://cheatography.com/)
