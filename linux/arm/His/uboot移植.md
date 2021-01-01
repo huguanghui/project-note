@@ -134,7 +134,7 @@ reset -> save_boot_params
 ### C部分
 
 ```c
-
+CONFIG_BOOTCOMMAND
 ```
 
 ```
