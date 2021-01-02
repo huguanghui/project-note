@@ -35,3 +35,38 @@ $ sudo mkfontdir
 $ sudo fc-cache -fv
 ```
 
+## 更换国内镜像源
+
+[链接](https://blog.csdn.net/wzyaiwl/article/details/88571414)
+
+```
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.old
+```
+
+```
+deb http://mirrors.aliyun.com/ubuntu/ xenial main
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial main
+ 
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates main
+ 
+deb http://mirrors.aliyun.com/ubuntu/ xenial universe
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates universe
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates universe
+ 
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security main
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security universe
+```
+
+```
+sudo apt-get update
+sudo apt-get -f install
+sudo apt-get upgrade
+```
+
+## DWM环境安装
+
+[ubuntu的官方仓库](http://manpages.ubuntu.com/manpages/xenial/man1/dwm.1.html#description)
