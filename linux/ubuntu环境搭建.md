@@ -70,3 +70,30 @@ sudo apt-get upgrade
 ## DWM环境安装
 
 [ubuntu的官方仓库](http://manpages.ubuntu.com/manpages/xenial/man1/dwm.1.html#description)
+
+## 安装Sougou中文输入法
+
+```
+sudo apt-get purge fcitx-ui-qimpanel
+```
+
+## 截面优化
+
+[参考](https://zhuanlan.zhihu.com/p/183861786)
+
+[dwm](https://www.baidu.com/s?wd=dwm%E7%BC%96%E8%AF%91)
+
+### 程序选择器-dmenu
+
+### 屏幕壁纸-feh
+
+## variety
+
+### 窗口美化-picom
+
+### 文本搜索
+
+```
+apt-get install silversearcher-ag
+```
+

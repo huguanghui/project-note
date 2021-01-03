@@ -1,5 +1,3 @@
-
-
 [TOC]
 
 # WeekNote
@@ -411,3 +409,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 ## 第十一期
 
 [cheatsheets](https://cheatography.com/)
+
+[satanson](https://github.com/satanson/cpp_etudes)
+
+[ag](https://github.com/ggreer/the_silver_searcher)
