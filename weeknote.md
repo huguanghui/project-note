@@ -413,3 +413,5 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [satanson](https://github.com/satanson/cpp_etudes)
 
 [ag](https://github.com/ggreer/the_silver_searcher)
+
+[SecureCRT的仿Solaried配色](https://liam.page/2015/09/24/color-scheme-for-securecrt/)
