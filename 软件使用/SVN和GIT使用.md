@@ -160,6 +160,14 @@ $ svn switch --relocate http://192.168.1.4/svn/zview_4sdi_dvr/firmware/projects_
 
 > 解决办法: git 配置文件 core.quotepath 项设置为 false
 
+### .git文件过大
+
+ 现象: 之前误上传了大文件到git服务器后, git的历史记录中就对这个文件做了备份.
+
+ 解决办法: 
+
+[参考](https://blog.csdn.net/lai1170137052/article/details/107009414/)
+
 ## 提交规范
 
 > 采用比较流行的约定式提交规范,  受 Angular提交准则启发
