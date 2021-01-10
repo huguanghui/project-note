@@ -415,3 +415,5 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 [ag](https://github.com/ggreer/the_silver_searcher)
 
 [SecureCRT的仿Solaried配色](https://liam.page/2015/09/24/color-scheme-for-securecrt/)
+
+[i3wm的配置整理](https://blog.csdn.net/olnautunm/article/details/109954444)
