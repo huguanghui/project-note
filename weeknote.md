@@ -8,7 +8,7 @@
 
 ### 软件资料
 
-[AV1](https://evilmartians.com/chronicles/better-web-video-with-av1-codec)                                                                -开源的视频编码和解码标准
+[AV1](https://evilmartians.com/chronicles/better-web-video-with-av1-codec) -开源的视频编码和解码标准
 
 [线程的通俗描述](https://www.internalpointers.com/post/gentle-introduction-multithreading)
 
@@ -18,15 +18,15 @@
 
 [Paste to Markdown](https://euangoddard.github.io/clipboard2markdown/)
 
-[RTC](https://euangoddard.github.io/clipboard2markdown/)                                                       -  对redis进行内存结构分析
+[RTC](https://euangoddard.github.io/clipboard2markdown/) - 对 redis 进行内存结构分析
 
-[google开源的图片压缩](https://github.com/GoogleChromeLabs/squoosh)
+[google 开源的图片压缩](https://github.com/GoogleChromeLabs/squoosh)
 
-[Mac的平铺窗口管理器](https://koekeishiya.github.io/chunkwm/docs.html)
+[Mac 的平铺窗口管理器](https://koekeishiya.github.io/chunkwm/docs.html)
 
-[StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) 				-流媒体保存成本地文件的浏览器库。
+[StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) -流媒体保存成本地文件的浏览器库。
 
-[你的电脑有多快？](https://computers-are-fast.github.io/)      			- 一个小游戏，提供一系列常见任务的 Python 脚本，让你猜计算机在1秒内可以执行多少次.
+[你的电脑有多快？](https://computers-are-fast.github.io/) - 一个小游戏，提供一系列常见任务的 Python 脚本，让你猜计算机在 1 秒内可以执行多少次.
 
 [OAuth2.0](http://www.ruanyifeng.com/blog/2019/04/oauth-grant-types.html)
 
@@ -82,7 +82,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 ### 软件应用
 
-[zsh终端](https://zhuanlan.zhihu.com/p/19556676)
+[zsh 终端](https://zhuanlan.zhihu.com/p/19556676)
 
 [Generative.fm](https://generative.fm/)
 
@@ -118,15 +118,15 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [Mercurial](https://www.mercurial-scm.org/)
 
-[phpor的博客](https://phpor.net/blog/)
+[phpor 的博客](https://phpor.net/blog/)
 
 [香港地铁的颜色](http://metrocolor.live/index.html)
 
 [AutoPiano](http://crystalworld.gitee.io/qpiano/#/)
 
-[shutter截图工具](https://www.linuxidc.com/Linux/2019-04/157899.htm)
+[shutter 截图工具](https://www.linuxidc.com/Linux/2019-04/157899.htm)
 
-[ebook介绍](https://calibre-ebook.com/about)
+[ebook 介绍](https://calibre-ebook.com/about)
 
 [接口管理文档简介](https://www.kancloud.cn/yanshandou/kam2/598840)
 
@@ -138,47 +138,47 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [月更新开源项目简介](https://github.com/521xueweihan/HelloGitHub)
 
-[各种语言的Leetcode练习](https://github.com/tangweikun/awesome-leetcode#c)
+[各种语言的 Leetcode 练习](https://github.com/tangweikun/awesome-leetcode#c)
 
-[nginx学习笔记](https://github.com/y123456yz/reading-code-of-nginx-1.9.2)
+[nginx 学习笔记](https://github.com/y123456yz/reading-code-of-nginx-1.9.2)
 
 [XWIKI](https://www.xwiki.org/xwiki/bin/view/Main/)
 
 [微软的 Terminal](https://github.com/microsoft/Terminal/tree/master)
 
-[数据库可视化软件Navicat](https://www.navicat.com/en/download/navicat-premium)
+[数据库可视化软件 Navicat](https://www.navicat.com/en/download/navicat-premium)
 
-[Navicat激活](https://blog.csdn.net/jikefzz1095377498/article/details/79578796)
+[Navicat 激活](https://blog.csdn.net/jikefzz1095377498/article/details/79578796)
 
 ## 第三期
 
 [阮一峰博客](http://www.ruanyifeng.com/home.html)
 
-[50万行 Java 代码移植到 Go 语言的感想](https://blog.kowalczyk.info/article/19f2fe97f06a47c3b1f118fd06851fad/lessons-learned-porting-50k-loc-from-java-to-go.html)
+[50 万行 Java 代码移植到 Go 语言的感想](https://blog.kowalczyk.info/article/19f2fe97f06a47c3b1f118fd06851fad/lessons-learned-porting-50k-loc-from-java-to-go.html)
 
-[Flutter中文网](https://flutterchina.club/)
+[Flutter 中文网](https://flutterchina.club/)
 
 [Notion](https://www.notion.so/login)
 
-[我的notion](www.notion.so/huguanghui)
+[我的 notion](www.notion.so/huguanghui)
 
 [流媒体相关博客](http://www.cnblogs.com/haibindev/tag/%E6%B5%81%E5%AA%92%E4%BD%93/)
 
-[2019 Google I/O中对Chrome的改进](https://www.codercto.com/topics/263.html)
+[2019 Google I/O 中对 Chrome 的改进](https://www.codercto.com/topics/263.html)
 
-[ReadtheDocs文档管理](https://readthedocs.org/dashboard/)
+[ReadtheDocs 文档管理](https://readthedocs.org/dashboard/)
 
 [录制屏幕生成 GIF](https://www.so.com/s?ie=UTF-8&q=LICEcap)
 
 [中文文案排版](https://mazhuang.org/wiki/chinese-copywriting-guidelines/)
 
-[GPROF工具使用](https://blog.csdn.net/luchengtao11/article/details/74910585)
+[GPROF 工具使用](https://blog.csdn.net/luchengtao11/article/details/74910585)
 
-[程序优化的5个方向](https://me115.github.io/2015/08/06/e7-a8-8b-e5-ba-8f-e4-bc-98-e5-8c-96-e7-9a-845-e4-b8-aa-e6-96-b9-e5-90-91/)
+[程序优化的 5 个方向](https://me115.github.io/2015/08/06/e7-a8-8b-e5-ba-8f-e4-bc-98-e5-8c-96-e7-9a-845-e4-b8-aa-e6-96-b9-e5-90-91/)
 
 [visio2019](https://www.chiphell.com/thread-1920052-1-1.html)
 
-[viso2019秘钥](https://blog.csdn.net/ysd880301/article/details/88360199)
+[viso2019 秘钥](https://blog.csdn.net/ysd880301/article/details/88360199)
 
 ## 第四期
 
@@ -194,7 +194,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
 
-[Go的开发路线](https://github.com/Alikhll/golang-developer-roadmap/blob/master/i18n/ReadMe-zh-CN.md)
+[Go 的开发路线](https://github.com/Alikhll/golang-developer-roadmap/blob/master/i18n/ReadMe-zh-CN.md)
 
 [开发设计的原则和定律](https://github.com/nusr/hacker-laws-zh)
 
@@ -206,37 +206,37 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [ctags](http://ctags.sourceforge.net/)
 
-[FiraCode字体](https://github.com/tonsky/FiraCode)
+[FiraCode 字体](https://github.com/tonsky/FiraCode)
 
-[ubuntu下安装字体](https://blog.csdn.net/bitcarmanlee/article/details/79729634)
+[ubuntu 下安装字体](https://blog.csdn.net/bitcarmanlee/article/details/79729634)
 
-[Chocolatey](https://chocolatey.org/) - Windows上的安装包管理
+[Chocolatey](https://chocolatey.org/) - Windows 上的安装包管理
 
 [字体安装](http://www.360kuai.com/pc/9d11114e6873c2292?cota=3&kuai_so=1&tj_url=xz&sign=360_e39369d1&refer_scene=so_1)[字体格式的区分](http://www.360doc.com/content/14/1011/10/14573610_416005436.shtml)
 
-[TeaHour播客](http://teahour.fm/)
+[TeaHour 播客](http://teahour.fm/)
 
 [配置文件](https://github.com/shibayu36/config-file)
 
 [常用工具](https://www.bejson.com/)
 
-[cplusplus中的string的使用](http://www.cplusplus.com/reference/string/string/)
+[cplusplus 中的 string 的使用](http://www.cplusplus.com/reference/string/string/)
 
-[go的excel库使用](https://github.com/360EntSecGroup-Skylar/excelize)
+[go 的 excel 库使用](https://github.com/360EntSecGroup-Skylar/excelize)
 
-[Sylar的博客](http://www.sylar.top/blog/)
+[Sylar 的博客](http://www.sylar.top/blog/)
 
 ## 第五期
 
-[初音Cloud云加速](https://91fastvpn.com/)
+[初音 Cloud 云加速](https://91fastvpn.com/)
 
 [佰阅部落](https://baiyue.one/)
 
-[Consen博客](https://consen.github.io/)
+[Consen 博客](https://consen.github.io/)
 
-[linux终端命令录制工具](https://baiyue.one/archives/257.html)
+[linux 终端命令录制工具](https://baiyue.one/archives/257.html)
 
-[ranger使用](https://www.52gvim.com/)
+[ranger 使用](https://www.52gvim.com/)
 
 [速查表](https://www.cnblogs.com/findumars/p/8480368.html)
 
@@ -250,14 +250,14 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [Caffe](http://caffe.berkeleyvision.org/)
 
-[alibaba开源](https://github.com/alibaba?utf8=%E2%9C%93&q=&type=&language=c)
+[alibaba 开源](https://github.com/alibaba?utf8=%E2%9C%93&q=&type=&language=c)
 
 [切图](https://icons8.com/)
 
 [usbguard](https://github.com/USBGuard/usbguard)
 
 [经典书籍文档](https://github.com/royeo/awesome-programming-books)
-[manjaro的安装和配置](http://ju.outofmemory.cn/entry/359698)
+[manjaro 的安装和配置](http://ju.outofmemory.cn/entry/359698)
 
 [i3 官网](https://i3wm.org/)
 
@@ -271,7 +271,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [Linux 系统的时间线](https://github.com/FabioLolix/LinuxTimeline)
 
-[用飞桨来实现您的AI想法](http://www.paddlepaddle.org.cn/start)
+[用飞桨来实现您的 AI 想法](http://www.paddlepaddle.org.cn/start)
 
 ### 打字
 
@@ -285,23 +285,23 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [C/C++资源表](https://www.ctolib.com/cpp/)
 
-[polybar的几个推荐主题](https://linux.ctolib.com/adi1090x-polybar-themes.html)
+[polybar 的几个推荐主题](https://linux.ctolib.com/adi1090x-polybar-themes.html)
 
-[nvim配置](https://github.com/theniceboy/nvim)
+[nvim 配置](https://github.com/theniceboy/nvim)
 
 [Intel 神经棒](https://software.intel.com/zh-cn/neural-compute-stick)
 
-[NCS的github仓库](https://github.com/movidius/ncsdk.git)
+[NCS 的 github 仓库](https://github.com/movidius/ncsdk.git)
 
-[vagrant虚拟器](https://www.vagrantup.com/intro/getting-started/install.html)
+[vagrant 虚拟器](https://www.vagrantup.com/intro/getting-started/install.html)
 
 [linuxtoy](https://linuxtoy.org/pages/all-archives.html)
 
 [lulinux](https://www.lulinux.com/)
 
-[Latex官网](https://www.latex-project.org/)
+[Latex 官网](https://www.latex-project.org/)
 
-##  第七期
+## 第七期
 
 [腾讯软件源](https://mirrors.cloud.tencent.com/)
 
@@ -313,29 +313,29 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 ## 第八期
 
-[pyqt5技巧博客](https://zmister.com/archives/category/data-apply/pyqtgtaph-tutorial/)
+[pyqt5 技巧博客](https://zmister.com/archives/category/data-apply/pyqtgtaph-tutorial/)
 
 [memaid](https://mermaidjs.github.io/#/)
 
-[数据库管理工具Heidisql](https://www.heidisql.com/)
+[数据库管理工具 Heidisql](https://www.heidisql.com/)
 
-[windows的命令行包管理工具](https://www.jianshu.com/p/50993df76b1c)
+[windows 的命令行包管理工具](https://www.jianshu.com/p/50993df76b1c)
 
-[Leetcode刷题](https://leetcode-cn.com/)
+[Leetcode 刷题](https://leetcode-cn.com/)
 
-[squashfs源码](https://sourceforge.net/projects/squashfs/files/)
+[squashfs 源码](https://sourceforge.net/projects/squashfs/files/)
 
-[cscope使用](http://cscope.sourceforge.net/)
+[cscope 使用](http://cscope.sourceforge.net/)
 
-[Bartek的编码博客](https://www.bfilipek.com/2019/10/cppecosystem.html)
+[Bartek 的编码博客](https://www.bfilipek.com/2019/10/cppecosystem.html)
 
-[Uber的Go编程规范](https://github.com/uber-go/guide/blob/master/style.md)
+[Uber 的 Go 编程规范](https://github.com/uber-go/guide/blob/master/style.md)
 
 [OpenDiablo2](https://github.com/OpenDiablo2/OpenDiablo2)
 
 [一个免费开源、跨平台的可视化源码探索项目](https://github.com/CoatiSoftware/Sourcetrail)
 
-[CToLib码库](https://www.ctolib.com/)
+[CToLib 码库](https://www.ctolib.com/)
 
 ## 第九期
 
@@ -363,24 +363,25 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [fishcOD](https://www.cr173.com/soft/87892.html)
 
-[ida pro使用](https://blog.csdn.net/larry_zeng1/article/details/89349542)
+[ida pro 使用](https://blog.csdn.net/larry_zeng1/article/details/89349542)
 
-[ida的安装和使用](https://blog.csdn.net/limingandritchie/article/details/104409800/)
+[ida 的安装和使用](https://blog.csdn.net/limingandritchie/article/details/104409800/)
 
 ## 第十期
+
 [开发相关博客](https://blog.csdn.net/aggresss/article/details/78424590)
 
-[manjaro页面整理](https://www.cnblogs.com/siyingcheng/p/11706436.html)
+[manjaro 页面整理](https://www.cnblogs.com/siyingcheng/p/11706436.html)
 
-[elf中段信息分析](https://blog.csdn.net/u011987514/article/details/67716639)
+[elf 中段信息分析](https://blog.csdn.net/u011987514/article/details/67716639)
 
-[bcompare破解](https://my.oschina.net/sfshine/blog/1829595)
+[bcompare 破解](https://my.oschina.net/sfshine/blog/1829595)
 
 [st-1.9](http://state-threads.sourceforge.net/index.html)
 
 [视频流方案](https://blog.csdn.net/weixin_41422027/article/details/103304430)
 
-[chrisa博客](https://www.chrisatmachine.com/blog)
+[chrisa 博客](https://www.chrisatmachine.com/blog)
 
 [海底苍鹰博客](http://blog.51yip.com/)
 
@@ -388,13 +389,13 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [state-threads](https://github.com/ossrs/state-threads)
 
-[IPC编译架构](https://github.com/balajip/e_wificam/tree/217edee1b51e3bdbc85edecb22fc82c76e83a16a)
+[IPC 编译架构](https://github.com/balajip/e_wificam/tree/217edee1b51e3bdbc85edecb22fc82c76e83a16a)
 
-[mtd_debug源码](http://www.linux-mtd.infradead.org/)
+[mtd_debug 源码](http://www.linux-mtd.infradead.org/)
 
-[mtd_debug的交叉编译](https://www.xuebuyuan.com/1341090.html)
+[mtd_debug 的交叉编译](https://www.xuebuyuan.com/1341090.html)
 
-[shell执行mtd_debug的命令参考](https://github.com/zhangheng408/tools/blob/master/bios_tool/update_uboot.sh)
+[shell 执行 mtd_debug 的命令参考](https://github.com/zhangheng408/tools/blob/master/bios_tool/update_uboot.sh)
 
 [cron 定时执行任务](https://www.cnblogs.com/shuaiqing/p/7742382.html)
 
@@ -404,7 +405,7 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [海康萤石智能门锁的网关分析](https://www.52pojie.cn/thread-1255338-1-1.html)
 
-[understand的术语介绍](https://blog.csdn.net/dddxxxx/article/details/77736720)
+[understand 的术语介绍](https://blog.csdn.net/dddxxxx/article/details/77736720)
 
 ## 第十一期
 
@@ -414,6 +415,8 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [ag](https://github.com/ggreer/the_silver_searcher)
 
-[SecureCRT的仿Solaried配色](https://liam.page/2015/09/24/color-scheme-for-securecrt/)
+[SecureCRT 的仿 Solaried 配色](https://liam.page/2015/09/24/color-scheme-for-securecrt/)
 
-[i3wm的配置整理](https://blog.csdn.net/olnautunm/article/details/109954444)
+[i3wm 的配置整理](https://blog.csdn.net/olnautunm/article/details/109954444)
+
+[svnbucket](https://svnbucket.com)
