@@ -168,6 +168,14 @@ $ svn switch --relocate http://192.168.1.4/svn/zview_4sdi_dvr/firmware/projects_
 
 [参考](https://blog.csdn.net/lai1170137052/article/details/107009414/)
 
+### 新建分支
+
+```shell
+$ git branch --track [branch] [remote-branch]
+```
+
+
+
 ## 提交规范
 
 > 采用比较流行的约定式提交规范,  受 Angular提交准则启发
