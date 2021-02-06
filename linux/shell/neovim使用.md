@@ -8,10 +8,7 @@
 
 [blog](https://www.chrisatmachine.com/neovim)
 
-[CW](https://github.com/theniceboy/nvim/blob/master/init.vim)
-
-## 安装
-
+[CW](https://github.com/theniceboy/nvim/blob/master/init.vim) ## 安装
 ### Linux
 
 #### Debian
