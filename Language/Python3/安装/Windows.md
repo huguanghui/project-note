@@ -30,3 +30,9 @@ $ pip --default-timeout=600 install -i https://pypi.tuna.tsinghua.edu.cn/simple 
 pip --default-timeout=600 install -i  http://mirrors.aliyun.com/pypi/simple/ opencv-python
 ```
 
+## pip卸载
+
+```
+$ pip uninstall [包名]
+```
+
