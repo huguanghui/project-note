@@ -423,3 +423,5 @@ LFU 是常用的删除过期缓存的算法，本文介绍了它的一种代码�
 
 [free-vpn](https://lightyearvpn.com/zh/free-vpn)
 [解决 github 下载缓慢问题](https://jdhao.github.io/2021/01/08/github_access_issue_in_china/)
+
+[Makefile常用语法](http://www.360doc.com/content/15/0506/16/9075092_468515718.shtml)
