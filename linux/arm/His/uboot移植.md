@@ -141,3 +141,24 @@ CONFIG_BOOTCOMMAND
 setenv bootargs "mem=128M console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=jffs2 rw mtdparts=hi_sfc:1M(boot),4M(kernel),11M(rootfs)"
 ```
 
+```
+arch=arm
+baudrate=115200
+board=hi3516dv300
+board_name=hi3516dv300
+bootargs=mem=128M console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=squashfs rw mtdparts=hi_sfc:1M(boot),4M(kernel),3584K(rootfs),2M(ko),4608K(app),512K(config),512K(custom)
+bootcmd=sf probe 0;sf read 0x80600000 0x100000 0x400000; bootm 0x80600000
+bootdelay=2
+cpu=armv7
+ethact=eth0
+ethaddr=1a:ae:46:b8:4f:42
+ipaddr=192.168.3.77
+serverip=192.168.3.90
+soc=hi3516dv300
+stderr=serial
+stdin=serial
+stdout=serial
+vendor=hisilicon
+verify=n
+```
+
