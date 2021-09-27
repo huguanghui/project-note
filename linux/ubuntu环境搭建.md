@@ -97,3 +97,30 @@ sudo apt-get purge fcitx-ui-qimpanel
 apt-get install silversearcher-ag
 ```
 
+## 终端st
+
+```shell
+git clone git@github.com:huguanghui/st.git
+```
+
+X11/Xlib.h
+
+```shell
+$ sudo apt-get install libx11-dev 
+```
+
+X11/xpm.h：no such file or directory
+
+```shell
+$ sudo apt-get install libxpm-dev
+```
+
+X11/Xft/Xft.h: no such file or directory
+
+```shell
+$ sudo apt install libxft-dev
+```
+
+出现了一个奇怪问题, 安装好st后问题就解决了
+
+现象: st终端 ssh 远程登陆后 tmux 开启后,执行neovim后tmux整个崩溃了
