@@ -174,8 +174,6 @@ $ svn switch --relocate http://192.168.1.4/svn/zview_4sdi_dvr/firmware/projects_
 $ git branch --track [branch] [remote-branch]
 ```
 
-
-
 ## 提交规范
 
 > 采用比较流行的约定式提交规范,  受 Angular提交准则启发
@@ -212,3 +210,43 @@ chore:    不修改src或者test的其余修改，例如构建过程或辅助工
 ```
 
 注意: 当一次改动包括`主要type`与`特殊type`时，统一采用主要type
+
+路径代理
+
+> git config --global -e
+
+```ini
+[url "https://hub.fastgit.org/"]
+	insteadOf = https://github.com/
+[user]
+	name = huguanghui
+	email = 522146829@qq.com
+```
+
+配置git编辑器
+
+```shell
+git config --global core.editor lvim
+```
+
+删除远程,不删除本地
+
+```shell
+git rm -r --cached 文件/文件夹名
+```
+
+```PersonToken
+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
+```
+
+pull冲突合并
+```shell
+# 链表显示
+$ git stash list
+# 保存
+$ git stash save 1
+# 应用
+$ git stash apply  stash@{1}
+# 删除
+$ git stash drop stash@{1}
+```
