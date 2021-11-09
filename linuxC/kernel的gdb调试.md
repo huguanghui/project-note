@@ -16,10 +16,17 @@
 
 [从零使用qemu模拟器搭建arm开发环境](https://blog.csdn.net/linyt/article/details/42504975)
 
+[qemu官网](https://www.qemu.org/)
+
 ## QEMU源码
 
 ```shell
-git clone git://git.qemu-project.org/qemu.git
+git clone https://gitlab.com/qemu-project/qemu.git
+cd qemu
+git submodule init
+git submodule update --recursive
+./configure
+make
 ```
 
 
