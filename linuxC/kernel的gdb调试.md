@@ -29,6 +29,36 @@ git submodule update --recursive
 make
 ```
 
+## uboot调试
+
+[gdb安装](https://zhuanlan.zhihu.com/p/134031693)
+
+[u-boot](http://ftp.denx.de/pub/u-boot/)
+
+### 环境
+
+- 虚拟机: vexpress-a9
+- uboot版本 u-boot-2017.05
+
+```sh
+# uboot编译
+$export ARCH=arm  CROSS_COMPILE=arm-linux-gnueabi-  
+$make vexpress_ca9x4_defconfig  
+$make -j8  
+```
+
+```sh
+# 虚拟机运行
+$ qemu-system-arm -M vexpress-a9 -kernel u-boot -nographic -m 512M -gdb tcp:1234 -S -s
+```
+
+```sh
+# 启动gdb
+arm-none-eabi-gdb
+(gdb)  file u-boot  
+(gdb)  target remote:1234
+```
+
 
 
 ## kernel源码
