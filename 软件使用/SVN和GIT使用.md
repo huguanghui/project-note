@@ -174,6 +174,17 @@ $ svn switch --relocate http://192.168.1.4/svn/zview_4sdi_dvr/firmware/projects_
 $ git branch --track [branch] [remote-branch]
 ```
 
+### 添加子仓库
+
+```shell
+$ git submodule add https://github.com/chaconinc/DbConnector 路径
+# 下载带有子仓库的仓库
+$ git clone --recurse-submodules [git路径]
+$ git submodule update --init --recursive
+```
+
+
+
 ## 提交规范
 
 > 采用比较流行的约定式提交规范,  受 Angular提交准则启发

@@ -124,3 +124,6 @@ $ sudo apt install libxft-dev
 出现了一个奇怪问题, 安装好st后问题就解决了
 
 现象: st终端 ssh 远程登陆后 tmux 开启后,执行neovim后tmux整个崩溃了
+
+## LNMP搭建
+

@@ -15,3 +15,5 @@ set(CMAKE_C_FLAGS "-static ${CMAKE_C_FLAGS}")
 set(CMAKE_CXX_FLAGS "-static ${CMAKE_CXX_FLAGS}")
 ```
 
+## CMake编译参数
+

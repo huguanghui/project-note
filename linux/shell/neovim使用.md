@@ -39,3 +39,10 @@ $pip install pynvim
 
 ## 使用
 
+## 支持ssh远程复制
+
+```
+1. 当前终端是否支持 OSC 52
+   echo -e '\e]52;c;aGVsbG8=\a' 'hello'
+```
+
