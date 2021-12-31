@@ -1,0 +1,171 @@
+﻿嵌入式mtrace分析内存泄漏
+
+1. 原理
+
+通过mtrace的内存追溯机制，利用相关脚本，对内存的结果进行分析，定位出对应内存泄漏的地方mtrace分析需要对比程序两次运行不同时间的内存情况，需要修改程序，使程序运行的时间不一样，用于对比分析两次程序运行的结果；
+mtrace调试最好是程序有完整的退出，对于循环执行的程序，可以写一个demo，或者加上定时退出机制，这样得到的分析结果最为完整有效。
+
+2. 源码修改
+
+(1) 修改makefile或者gcc，去掉优化选项和strip功能，添加-g调试；
+(2) 修改需要调试的源码，在main函数所在的文件里面添加mtrace所需要的头文件：
+
+#include <mcheck.h>
+在main函数的最前面加上需要打开的调试追溯接口：
+
+mtrace();
+在main函数运行最后的退出之前，加上关闭追溯接口：
+
+muntrace();
+编译程序。 注意：按照前面所述，需要根据程序运行的时间，生成两个不同的程序，这里命名为app0和app1，分别运行2分钟和3分钟；
+
+3. 调试运行
+
+在运行程序之前，mtrace需要使用export导出log文件：
+
+export MALLOC_TRACE=/mnt/mtrace/test.log
+或者在main函数的mtrace()调用之前添加对应的环境变量：
+
+setenv("MALLOC_TRACE", "/mnt/0/mtrace0.log", 1);
+注意，/mnt/0/mtrace0.log是我这边的mtrace的log文件所在路径，根据自己的需求修改。
+运行程序。
+利用命令，记录程序运行时候的maps文件：
+
+cat /proc/pid/maps > /mnt/0/app0.maps
+等待程序退出。
+程序退出之后，会有三个文件：
+
+app0 可执行程序；
+mtrace0.log mtrace调试的log文件；
+app0.maps app0对应运行的maps文件；
+重复上面的步骤，生成第二次运行程序的结果，也会有三个文件：
+
+app1 可执行程序；
+mtrace1.log mtrace调试的log文件；
+app1.maps app对应运行的maps文件；
+4. 分析
+
+利用mtrace命令，生成mtrace分析的结果：
+
+mtrace app0 mtrace0.log > mtrace0.result
+mtrace app1 mtrace1.log > mtrace1.result
+利用mtrace_do.py脚本，分析以上的四个文件，得到最终的分析结果：
+
+mtrace_do.py -i mtrace0.log -m app0.maps -l mtrace0.result -o result0.log
+mtrace_do.py -i mtrace1.log -m app1.maps -l mtrace1.result -o result1.log
+对比两个文件：result0.log和result1.log，找到内存泄漏的点，中间一列表示内存分配的次数，如果两者的差异很大，
+则表明内存有泄漏，最后一列表示泄漏的地址，可以根据地址找到对应的文件和行号，例如此处为0x27bf9：
+利用addr2line工具，分析内存泄漏的程序的行号
+
+# 如果当前需要分析静态库或者可执行程序，则需要用如下命令进行：
+addr2line -f -e app -a 0x27bf9
+# 如果是动态库，则需要用如下命令进行：
+addr2line -f -e libtest.so -a 0x27bf9
+mtrace_do.py
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import argparse
+import json
+
+# dfile = open('debug.log', mode='wb')
+
+def do_analysis(**kwarg):
+	in_file = kwarg['input']
+	out_file = kwarg['output']
+	map_file = kwarg['maps']
+	log_file = kwarg['logs']
+	total_cnt = 0
+	result_dict_cnt = dict()
+	result_dict_libname = dict()
+	result_dict_address = dict()
+	tmp_cnt = 0
+
+	# input
+	print(in_file)
+	with open(in_file, mode='rb') as f:
+		start = 0
+		line = f.readline()
+		while line:
+			if 1 == start:
+				# print(content)
+				content_arrs = line.split()
+				# print(tmp_cnt, content_arrs[3])
+				# dfile.write("%d %s\n"%(tmp_cnt, content_arrs[3]))
+				if content_arrs[3] in result_dict_cnt:
+					result_dict_cnt[content_arrs[3]] += 1
+				else:
+					result_dict_cnt[content_arrs[3]] = 1
+				total_cnt += 1
+			else:
+				bvalid = line.find(b'Memory not freed')
+				if  bvalid != -1:
+					# print(line)
+					# print(tmp_cnt)
+					line = f.readline()
+					tmp_cnt += 1
+					line = f.readline()
+					tmp_cnt += 1
+					start = 1
+			line = f.readline()
+			tmp_cnt += 1
+		
+
+	for i in sorted (result_dict_cnt):
+		result_dict_libname[i] = 'unknown'
+		with open(log_file, mode='rb') as log_fd:
+			log_line = log_fd.readline()	
+			while log_line:
+				bvalid = log_line.find(i)	
+				if bvalid != -1:
+					libs_begin = log_line.find(b'@ ')	
+					libs_end = log_line.find(b':', libs_begin+2)	
+					libsname = log_line[libs_begin+2:libs_end]
+					result_dict_libname[i] = libsname
+					break
+				log_line = log_fd.readline()
+		result_dict_address[i] = 'unknown'
+		if result_dict_libname[i] != 'unknown':
+			lib_arrs = result_dict_libname[i].split(b'/')
+			libname = lib_arrs[len(lib_arrs)-1]
+			base_addr = '0x0'
+			with open(map_file, mode='rb') as map_fd:
+				map_line = map_fd.readline()	
+				while map_line:
+					bvalid = map_line.find(libname)	
+					if bvalid != -1:
+						baseadd_end = map_line.find(b'-')
+						base_addr = map_line[:baseadd_end]	
+						break
+					map_line = map_fd.readline()
+			if base_addr != '0x0':
+				# print(base_addr)
+				base_addr_hex = int(i, base=16) - int(base_addr, base=16)
+				# print("%x %x\n"%(int(i, base=16), int(base_addr, base=16)))	
+				# print(base_addr_hex)
+				result_dict_address[i] = hex(base_addr_hex)
+				# print(result_dict_address[i])
+
+#output
+	print(out_file)
+	with open(out_file, mode='wb') as o:
+		o.write(("total_cnt: %d\n" % total_cnt).encode())
+		for i in sorted (result_dict_cnt):
+			bvalid = result_dict_libname[i].find(b'ld-linux-armhf.so')
+			if bvalid == -1:
+				o.write(("%10s:\t\t%d\t\t%32s\t\t%s\n" % (i, result_dict_cnt[i], result_dict_libname[i], result_dict_address[i])).encode())
+			# o.write("%s:\t %d\n" % (i, result_dict_cnt[i]))
+		# print(result_dict)
+
+def main():
+	parser = argparse.ArgumentParser(description='Process mtrace log.')
+	parser.add_argument('-i', '--input', required=True, help='input log file')
+	parser.add_argument('-m', '--maps', required=True, help='process maps file')
+	parser.add_argument('-l', '--logs', required=True, help='mtrace log file')
+	parser.add_argument('-o', '--output', required=True, help='output result')
+	args = parser.parse_args()
+	do_analysis(**vars(args))
+
+if __name__ == '__main__':
+	main()
