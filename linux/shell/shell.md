@@ -123,6 +123,9 @@ $ arm-hisiv500-linux-nm -A *.a | grep HY_PkgStream_DataPopCreate
 $ arm-hisiv500-linux-nm -D yourLib.so |grep -w yourFunction
 # 查看进程动态依赖库
 $ readelf -a program | grep "Shared"
+# 查看编译器
+$ readelf build/mips-linux-gnu/release/t40_demo -p .comment | grep GCC
+$ objdump -s --section=.comment build/mips-linux-gnu/release/t40_demo
 ```
 
 ## 文本处理
